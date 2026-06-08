@@ -1,0 +1,82 @@
+# Small grid for smoke testing on a login node or CPU box.
+project:
+  name: neurips_review_guided_trend_mining_debug
+  years: [2023, 2024, 2025]
+  random_seed: 42
+paths:
+  raw_input: null
+  output_dir: artifacts_debug
+text:
+  source_column: text_clean
+  min_chars: 50
+  use_spacy: false
+  custom_stopwords: [paper, method, model, task, dataset, result, learning, neural, network]
+embedding:
+  device: auto
+  batch_size: 32
+  max_length: 512
+  fp16: true
+  normalize_embeddings: true
+  models:
+    minilm:
+      enabled: true
+      backend: sentence_transformer
+      name: sentence-transformers/all-MiniLM-L6-v2
+    specter2:
+      enabled: false
+      backend: hf_auto
+      name: allenai/specter2_base
+bertopic:
+  calculate_probabilities: false
+  low_memory: true
+  vectorizer:
+    min_df: 5
+    max_df: 0.80
+    ngram_range: [1, 2]
+  class_tfidf:
+    reduce_frequent_words: true
+  grid:
+    seeds: [42]
+    umap_n_neighbors: [30]
+    umap_n_components: [5]
+    hdbscan_min_cluster_size: [60]
+    hdbscan_min_samples: [10]
+  selection:
+    min_topics: 8
+    max_topics: 100
+    max_outlier_rate: 0.50
+    score_weights:
+      coherence_npmi: 1.00
+      topic_diversity: 0.60
+      outlier_rate: -1.20
+      largest_topic_share: -0.60
+  outlier_reduction:
+    strategy: embeddings
+lda:
+  enabled: true
+  n_topics: 30
+  max_features: 10000
+  max_iter: 5
+  learning_method: batch
+  random_state: 42
+trend:
+  accepted_only: true
+  exclude_topics: [-1]
+  exclude_topic_zero: false
+  min_topic_size: 20
+  min_years_present: 2
+  main_rating_column: avg_rating_z_year
+  raw_rating_column: avg_rating
+regression:
+  dependent: delta_share_pp
+  predictors: [avg_rating_z_year, log_topic_size, initial_share_2023_pp, prestige_concentration]
+  robust_cov: HC3
+  bootstrap_iters: 200
+  bootstrap_seed: 123
+representatives:
+  top_k_per_topic: 5
+  prefer_high_probability: true
+  use_rating_tiebreak: true
+figures:
+  dpi: 160
+  max_labels: 12

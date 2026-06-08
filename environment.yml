@@ -1,0 +1,29 @@
+name: neurips-trend
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - joblib
+  - pyarrow
+  - pip:
+      - sentence-transformers>=2.6
+      - transformers>=4.40
+      - torch>=2.1
+      - bertopic>=0.16
+      - umap-learn>=0.5
+      - hdbscan>=0.8
+      - gensim>=4.3
+      - spacy>=3.7
+      - openreview-py>=1.46
