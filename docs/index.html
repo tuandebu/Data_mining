@@ -140,12 +140,19 @@ flowchart LR
       <p class="text-secondary">Endpoint movement is useful, but adjacent-year decomposition reveals late surges, early plateaus, and consistent declines.</p>
       <ul class="nav nav-pills mb-3" id="trendTabs" role="tablist">
         <li class="nav-item" role="presentation"><button class="nav-link active" id="tab-adj" data-bs-toggle="pill" data-bs-target="#panel-adj" type="button" role="tab">Decomposition bars</button></li>
-        <li class="nav-item" role="presentation"><button class="nav-link" id="tab-quad" data-bs-toggle="pill" data-bs-target="#panel-quad" type="button" role="tab">Quadrant scatter</button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" id="tab-quad" data-bs-toggle="pill" data-bs-target="#panel-quad" type="button" role="tab">Trajectory map</button></li>
         <li class="nav-item" role="presentation"><button class="nav-link" id="tab-traj" data-bs-toggle="pill" data-bs-target="#panel-traj" type="button" role="tab">Trajectory counts</button></li>
       </ul>
       <div class="tab-content">
         <div class="tab-pane fade show active" id="panel-adj" role="tabpanel" aria-labelledby="tab-adj"><div id="decompositionChart" class="chart-lg"></div></div>
-        <div class="tab-pane fade" id="panel-quad" role="tabpanel" aria-labelledby="tab-quad"><div id="quadrantChart" class="chart-lg"></div></div>
+        <div class="tab-pane fade" id="panel-quad" role="tabpanel" aria-labelledby="tab-quad">
+          <div class="alert alert-light border small mb-3">
+            <strong>How to read this map:</strong> x-axis is 2023→2024 movement and y-axis is 2024→2025 movement.
+            Top-right means growth in both intervals; bottom-left means decline in both intervals.
+            Labels are intentionally limited to avoid clutter; hover or click any point for details.
+          </div>
+          <div id="quadrantChart" class="chart-lg"></div>
+        </div>
         <div class="tab-pane fade" id="panel-traj" role="tabpanel" aria-labelledby="tab-traj"><div id="trajectoryCountsChart" class="chart-md"></div></div>
       </div>
       <p class="small text-secondary mt-2 mb-0">These charts are interactive Plotly visualizations generated from <code>topics.json</code>, not static images. Hover points/bars for values.</p>
@@ -228,6 +235,6 @@ python -m http.server 8000
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'loose' });
 </script>
-<script src="./assets/js/app.js?v=5"></script>
+<script src="./assets/js/app.js?v=6"></script>
 </body>
 </html>

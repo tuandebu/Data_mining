@@ -193,27 +193,133 @@ function renderDecompositionChart(){
 
 function renderQuadrantChart(){
   const pts = state.topics;
-  const topIds = new Set(topMovers(10).map(t=>t.topic_id));
-  const trace = {
-    type:'scatter', mode:'markers+text',
-    x:pts.map(p=>p.delta_23_24_pct_points),
-    y:pts.map(p=>p.delta_24_25_pct_points),
-    text:pts.map(p=>topIds.has(p.topic_id)?p.label:''),
-    textposition:'top right',
-    customdata:pts.map(p=>[p.topic_id]),
-    marker:{size:pts.map(p=>8+Math.sqrt(Math.max(1,p.size_total))*0.5), color:pts.map(p=>p.delta_23_25_pct_points), colorscale:'RdBu', reversescale:true, opacity:0.78, line:{color:'#1f2937',width:1}},
-    hovertemplate:'<b>%{customdata[0]}</b> %{text}<br>Δ23→24=%{x:.2f} pp<br>Δ24→25=%{y:.2f} pp<extra></extra>'
+
+  // This chart is meant to explain trajectories, not to label every topic.
+  // Labels for all 56 topics create clutter, so we group by quadrant and annotate
+  // only the few topics that are central to the report narrative.
+  const categories = [
+    {
+      key: 'consistent-growth',
+      label: 'Grows in both intervals',
+      test: p => p.delta_23_24_pct_points > 0 && p.delta_24_25_pct_points > 0,
+      color: '#16a34a'
+    },
+    {
+      key: 'consistent-decline',
+      label: 'Declines in both intervals',
+      test: p => p.delta_23_24_pct_points < 0 && p.delta_24_25_pct_points < 0,
+      color: '#dc2626'
+    },
+    {
+      key: 'early-spike',
+      label: 'Early jump / plateau',
+      test: p => p.delta_23_24_pct_points > 0 && p.delta_24_25_pct_points <= 0,
+      color: '#f97316'
+    },
+    {
+      key: 'rebound',
+      label: 'Rebound / late growth',
+      test: p => p.delta_23_24_pct_points <= 0 && p.delta_24_25_pct_points > 0,
+      color: '#2563eb'
+    }
+  ];
+
+  const traces = categories.map(cat => {
+    const subset = pts.filter(cat.test);
+    return {
+      type: 'scatter',
+      mode: 'markers',
+      name: cat.label,
+      x: subset.map(p => p.delta_23_24_pct_points),
+      y: subset.map(p => p.delta_24_25_pct_points),
+      text: subset.map(p => p.label),
+      customdata: subset.map(p => [p.topic_id, p.size_total, p.delta_23_25_pct_points, p.z_rating]),
+      marker: {
+        size: subset.map(p => 8 + Math.sqrt(Math.max(1, p.size_total)) * 0.45),
+        color: cat.color,
+        opacity: 0.74,
+        line: {color: '#0f172a', width: 1}
+      },
+      hovertemplate:
+        '<b>%{text}</b><br>' +
+        '2023→2024: %{x:.2f} pp<br>' +
+        '2024→2025: %{y:.2f} pp<br>' +
+        'Net 2023→2025: %{customdata[2]:.2f} pp<br>' +
+        'Size: %{customdata[1]} papers<br>' +
+        'z rating: %{customdata[3]:.3f}<extra></extra>'
+    };
+  }).filter(trace => trace.x.length > 0);
+
+  const xs = pts.map(p => p.delta_23_24_pct_points);
+  const ys = pts.map(p => p.delta_24_25_pct_points);
+  const xMin = Math.min(-2.1, Math.min(...xs) - 0.25);
+  const xMax = Math.max(2.7, Math.max(...xs) + 0.35);
+  const yMin = Math.min(-1.05, Math.min(...ys) - 0.25);
+  const yMax = Math.max(3.35, Math.max(...ys) + 0.25);
+
+  const topic = (needle) => pts.find(p => p.label.toLowerCase().includes(needle.toLowerCase()));
+  const topicAnnotation = (needle, text, ax, ay) => {
+    const p = topic(needle);
+    if (!p) return null;
+    return {
+      x: p.delta_23_24_pct_points,
+      y: p.delta_24_25_pct_points,
+      xref: 'x',
+      yref: 'y',
+      text,
+      showarrow: true,
+      arrowhead: 2,
+      arrowsize: 1,
+      arrowwidth: 1,
+      arrowcolor: '#475569',
+      ax,
+      ay,
+      bgcolor: 'rgba(255,255,255,0.86)',
+      bordercolor: '#cbd5e1',
+      borderpad: 3,
+      font: {size: 11, color: '#111827'}
+    };
   };
-  Plotly.newPlot('quadrantChart', [trace], {
-    margin:{l:70,r:30,t:20,b:70},
-    xaxis:{title:'Δ23→24 accepted-paper share (pp)', zeroline:true, zerolinecolor:'#2563eb', zerolinewidth:2},
-    yaxis:{title:'Δ24→25 accepted-paper share (pp)', zeroline:true, zerolinecolor:'#2563eb', zerolinewidth:2},
-    annotations:[
-      {xref:'paper',yref:'paper',x:0.96,y:0.96,text:'growth both intervals',showarrow:false,font:{size:11,color:'#047857'}},
-      {xref:'paper',yref:'paper',x:0.04,y:0.04,text:'decline both intervals',showarrow:false,font:{size:11,color:'#b91c1c'}}
+
+  const annotations = [
+    {xref:'paper',yref:'paper',x:0.86,y:0.94,text:'growth in both intervals',showarrow:false,font:{size:12,color:'#15803d'},bgcolor:'rgba(255,255,255,0.80)'},
+    {xref:'paper',yref:'paper',x:0.13,y:0.08,text:'decline in both intervals',showarrow:false,font:{size:12,color:'#b91c1c'},bgcolor:'rgba(255,255,255,0.80)'},
+    {xref:'paper',yref:'paper',x:0.84,y:0.08,text:'early jump → plateau/reversal',showarrow:false,font:{size:12,color:'#c2410c'},bgcolor:'rgba(255,255,255,0.80)'},
+    {xref:'paper',yref:'paper',x:0.13,y:0.94,text:'rebound / late growth',showarrow:false,font:{size:12,color:'#1d4ed8'},bgcolor:'rgba(255,255,255,0.80)'},
+    topicAnnotation('LLM reasoning', 'LLM reasoning<br><span style="font-size:10px">late acceleration</span>', 55, -32),
+    topicAnnotation('3D vision', '3D vision<br><span style="font-size:10px">early jump, then plateau</span>', -105, -38),
+    topicAnnotation('RL / policy', 'RL / policy<br><span style="font-size:10px">consistent decline</span>', 58, 25),
+    topicAnnotation('graph neural', 'GNNs<br><span style="font-size:10px">consistent decline</span>', 55, -10),
+    topicAnnotation('LLM safety', 'LLM safety', 55, -20)
+  ].filter(Boolean);
+
+  Plotly.newPlot('quadrantChart', traces, {
+    margin:{l:76,r:36,t:30,b:78},
+    xaxis:{
+      title:'Δ23→24 accepted-paper share (pp)',
+      range:[xMin,xMax],
+      zeroline:false,
+      gridcolor:'#e5e7eb'
+    },
+    yaxis:{
+      title:'Δ24→25 accepted-paper share (pp)',
+      range:[yMin,yMax],
+      zeroline:false,
+      gridcolor:'#e5e7eb'
+    },
+    shapes:[
+      {type:'rect',xref:'x',yref:'y',x0:0,x1:xMax,y0:0,y1:yMax,fillcolor:'rgba(22,163,74,0.055)',line:{width:0},layer:'below'},
+      {type:'rect',xref:'x',yref:'y',x0:xMin,x1:0,y0:yMin,y1:0,fillcolor:'rgba(220,38,38,0.055)',line:{width:0},layer:'below'},
+      {type:'rect',xref:'x',yref:'y',x0:0,x1:xMax,y0:yMin,y1:0,fillcolor:'rgba(249,115,22,0.045)',line:{width:0},layer:'below'},
+      {type:'rect',xref:'x',yref:'y',x0:xMin,x1:0,y0:0,y1:yMax,fillcolor:'rgba(37,99,235,0.045)',line:{width:0},layer:'below'},
+      {type:'line',xref:'x',yref:'y',x0:0,x1:0,y0:yMin,y1:yMax,line:{color:'#2563eb',width:2,dash:'dot'},layer:'above'},
+      {type:'line',xref:'x',yref:'y',x0:xMin,x1:xMax,y0:0,y1:0,line:{color:'#2563eb',width:2,dash:'dot'},layer:'above'}
     ],
+    annotations,
+    legend:{orientation:'h', y:1.12, x:0, font:{size:11}},
     hovermode:'closest'
-  }, {responsive:true});
+  }, {displayModeBar:false, responsive:true});
+
   $('quadrantChart').on('plotly_click', e=>{
     const id=e.points?.[0]?.customdata?.[0];
     if(id!==undefined){state.selectedTopicId=Number(id); renderInspector(state.selectedTopicId); $('topics').scrollIntoView({behavior:'smooth'});}
