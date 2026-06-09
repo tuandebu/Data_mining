@@ -3,95 +3,56 @@
     {
       "model": "MiniLM selected, pre-reduction",
       "topics": 56,
-      "outlier_rate": 0.3453225935082542,
-      "largest_topic_share": 0.0665922322354254,
-      "diversity": 0.9446428571428572,
-      "c_npmi": 0.143868724391601,
-      "c_v": 0.7402226027998143
+      "outlier_rate": 0.345,
+      "largest": 0.067,
+      "diversity": 0.945,
+      "c_npmi": 0.144,
+      "c_v": 0.74
     },
     {
       "model": "Selected BERTopic + reduction",
       "topics": 56,
       "outlier_rate": 0.0,
-      "largest_topic_share": 0.0820639604434165,
-      "diversity": 0.5178571428571429,
-      "c_npmi": 0.1769612304382171,
-      "c_v": 0.7328940347044947
+      "largest": 0.082,
+      "diversity": 0.518,
+      "c_npmi": 0.177,
+      "c_v": 0.733
     },
     {
       "model": "LDA TF-IDF, K=30",
       "topics": 30,
       "outlier_rate": 0.0,
-      "largest_topic_share": 0.0623654198899433,
-      "diversity": 0.7633333333333333,
-      "c_npmi": 0.0421497052577923,
-      "c_v": 0.525787073730383
+      "largest": 0.062,
+      "diversity": 0.763,
+      "c_npmi": 0.042,
+      "c_v": 0.526
     }
   ],
   "stability": [
     {
-      "pair_type": "MiniLM-MiniLM",
-      "pairs": 5778,
-      "mean_nmi": 0.7325694893169156,
-      "sd_nmi": 0.0479535479398297,
-      "mean_ari": 0.5334263157556789,
-      "sd_ari": 0.0919278531675153
+      "comparison": "MiniLM–MiniLM",
+      "nmi": 0.733,
+      "ari": 0.533
     },
     {
-      "pair_type": "SPECTER2-SPECTER2",
-      "pairs": 1485,
-      "mean_nmi": 0.7265230705102279,
-      "sd_nmi": 0.0443389806498321,
-      "mean_ari": 0.5415734225071074,
-      "sd_ari": 0.0784334119566063
+      "comparison": "SPECTER2–SPECTER2",
+      "nmi": 0.727,
+      "ari": 0.542
     },
     {
-      "pair_type": "MiniLM-Reduced",
-      "pairs": 108,
-      "mean_nmi": 0.6295644587152416,
-      "sd_nmi": 0.0243565571463498,
-      "mean_ari": 0.156760989585351,
-      "sd_ari": 0.0362129869743546
+      "comparison": "MiniLM–SPECTER2",
+      "nmi": 0.497,
+      "ari": 0.22
     },
     {
-      "pair_type": "Reduced-SPECTER2",
-      "pairs": 55,
-      "mean_nmi": 0.5021205444318597,
-      "sd_nmi": 0.0129709206807286,
-      "mean_ari": 0.0941971879938911,
-      "sd_ari": 0.0201509419292839
+      "comparison": "LDA–MiniLM",
+      "nmi": 0.34,
+      "ari": 0.064
     },
     {
-      "pair_type": "MiniLM-SPECTER2",
-      "pairs": 5940,
-      "mean_nmi": 0.4973056205215029,
-      "sd_nmi": 0.0140298022449147,
-      "mean_ari": 0.2208912003541802,
-      "sd_ari": 0.0273683377095889
-    },
-    {
-      "pair_type": "LDA-Reduced",
-      "pairs": 1,
-      "mean_nmi": 0.3996538726219953,
-      "sd_nmi": null,
-      "mean_ari": 0.2443274914000226,
-      "sd_ari": null
-    },
-    {
-      "pair_type": "LDA-MiniLM",
-      "pairs": 108,
-      "mean_nmi": 0.3383127876541634,
-      "sd_nmi": 0.0094140370747735,
-      "mean_ari": 0.0667776300470342,
-      "sd_ari": 0.0161435512469801
-    },
-    {
-      "pair_type": "LDA-SPECTER2",
-      "pairs": 55,
-      "mean_nmi": 0.3329077065193761,
-      "sd_nmi": 0.0097842212264173,
-      "mean_ari": 0.0526686053888691,
-      "sd_ari": 0.0128329038328711
+      "comparison": "LDA–SPECTER2",
+      "nmi": 0.331,
+      "ari": 0.052
     }
   ]
 }

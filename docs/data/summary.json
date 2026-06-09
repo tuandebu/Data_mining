@@ -1,13 +1,6 @@
 {
-  "schema_version": "1.0.0",
   "project_title": "NeurIPS Review-Guided Trend Mining",
   "subtitle": "Accepted-corpus topic trends, review signals, and representative-paper validation for NeurIPS 2023–2025",
-  "conference": "NeurIPS",
-  "years": [
-    2023,
-    2024,
-    2025
-  ],
   "public_records_total": 13171,
   "accepted_papers_total": 12539,
   "accepted_by_year": {
@@ -17,38 +10,26 @@
   },
   "public_rejected_total": 632,
   "topics_total": 56,
-  "selected_model": {
-    "family": "BERTopic",
-    "embedding_model": "all-MiniLM-L6-v2",
-    "seed": 42,
-    "umap_n_neighbors": 15,
-    "umap_n_components": 10,
-    "hdbscan_min_cluster_size": 30,
-    "hdbscan_min_samples": 10,
-    "outlier_reduction": true
-  },
+  "repo_url": "https://github.com/tuandebu/Data_mining",
+  "hf_dataset_url": "https://huggingface.co/datasets/tuandebu/data_mining/tree/main",
+  "report_pdf_url": "./report/Trend.pdf",
+  "validity_banner_title": "Accepted-corpus analysis only",
+  "validity_banner_text": "Public rejected submissions on OpenReview are incomplete. The demo reports accepted-paper share and review–trend association, not topic-level acceptance rates.",
   "headline_finding": {
     "pearson_r": -0.3842606932307198,
     "pearson_p": 0.0034573384739652,
     "spearman_rho": -0.4713602187286398,
     "spearman_p": 0.0002455730918931,
-    "controlled_coef_rating": -5.902756122900096,
-    "bootstrap_ci": [
-      -8.725127395367245,
-      -2.780386394574995
-    ]
+    "regression_coef": -5.902756122900096,
+    "regression_p": 0.0002532547494872,
+    "weighted_regression_coef": -9.07885531114631,
+    "weighted_regression_p": 5.148554214213092e-07
   },
-  "validity_banner_title": "Accepted-corpus analysis only — not topic acceptance rates",
-  "validity_banner_text": "Public rejected NeurIPS submissions on OpenReview are incomplete because rejected authors may choose whether to make papers and reviews public. This dashboard analyzes accepted-paper share, not acceptance probability.",
-  "repo_url": "https://github.com/tuandebu/Data_mining",
-  "hf_dataset_url": "https://huggingface.co/datasets/tuandebu/data_mining/tree/main",
-  "report_pdf_url": "./report/Trend.pdf",
   "downloads": {
     "topic_statistics_csv": "./downloads/topic_statistics.csv",
     "representatives_csv": "./downloads/representative_papers.csv",
-    "evidence_json": "./data/evidence.json",
-    "all_topics_json": "./data/topics.json"
-  },
-  "generated_at": "2026-06-09",
-  "data_sha256": "see checksums/server_result_checksums.txt"
+    "correlation_csv": "./downloads/correlation_results.csv",
+    "regression_csv": "./downloads/regression_results.csv",
+    "evidence_json": "./data/evidence.json"
+  }
 }
