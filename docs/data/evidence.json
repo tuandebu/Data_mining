@@ -510,7 +510,13 @@
       "regression_coef": -5.902756122900096,
       "regression_p": 0.0002532547494872,
       "weighted_regression_coef": -9.07885531114631,
-      "weighted_regression_p": 5.148554214213092e-07
+      "weighted_regression_p": 5.148554214213092e-07,
+      "bootstrap_ci": [
+        -8.725127395367245,
+        -2.780386394574995
+      ],
+      "ols_rating_coef_delta_on_rating": -5.902756122900096,
+      "ols_p": 0.0002532547494872
     }
   },
   "transition": {
@@ -1520,6 +1526,15 @@
       "slope": -0.04895274473941343,
       "intercept": 0.047973595995013815
     },
-    "stats": {}
+    "stats": {
+      "pearson_r": -0.3213764459740119,
+      "pearson_p": 0.0005500828619464,
+      "spearman_rho": -0.3869427253455139,
+      "spearman_p": 2.5038077058090465e-05,
+      "regression_coef": -3.693216778986533,
+      "regression_p": 8.31658032085574e-05,
+      "weighted_regression_coef": -6.388916644949136,
+      "weighted_regression_p": 7.770124541658616e-08
+    }
   }
 }

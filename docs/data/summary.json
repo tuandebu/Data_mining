@@ -23,7 +23,13 @@
     "regression_coef": -5.902756122900096,
     "regression_p": 0.0002532547494872,
     "weighted_regression_coef": -9.07885531114631,
-    "weighted_regression_p": 5.148554214213092e-07
+    "weighted_regression_p": 5.148554214213092e-07,
+    "bootstrap_ci": [
+      -8.725127395367245,
+      -2.780386394574995
+    ],
+    "ols_rating_coef_delta_on_rating": -5.902756122900096,
+    "ols_p": 0.0002532547494872
   },
   "downloads": {
     "topic_statistics_csv": "./downloads/topic_statistics.csv",
