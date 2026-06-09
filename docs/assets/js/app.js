@@ -67,7 +67,12 @@ async function main(){
 async function fetchJSON(url){
   const r = await fetch(url, {cache: 'no-store'});
   if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
-  return await r.json();
+  const raw = await r.text();
+  // Robustness for Python/pandas exports: browser JSON.parse rejects NaN/Infinity.
+  const cleaned = raw
+    .replace(/:\s*NaN(?=[,}])/g, ': null')
+    .replace(/:\s*-?Infinity(?=[,}])/g, ': null');
+  return JSON.parse(cleaned);
 }
 
 function showLoadError(err){
@@ -77,7 +82,7 @@ function showLoadError(err){
     <div class="col-12">
       <div class="alert alert-danger shadow-sm">
         <h2 class="h5">Dynamic data did not load.</h2>
-        <p class="mb-2">Most likely you opened <code>index.html</code> directly with <code>file://</code>. Browser security blocks loading local JSON files.</p>
+        <p class="mb-2">The demo could not read one of the small JSON artifacts. If you opened <code>index.html</code> directly with <code>file://</code>, run a local server. If you are on GitHub Pages, hard-refresh after the latest fix.</p>
         <p class="mb-2"><strong>Fix:</strong> run a local server inside the <code>docs</code> folder:</p>
         <pre class="mb-2"><code>cd D:\\NeurIPS_Trend_Project\\Data_mining\\docs
 py -m http.server 8000</code></pre>

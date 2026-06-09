@@ -73,9 +73,9 @@
       "pair_type": "LDA-Reduced",
       "pairs": 1,
       "mean_nmi": 0.3996538726219953,
-      "sd_nmi": NaN,
+      "sd_nmi": null,
       "mean_ari": 0.2443274914000226,
-      "sd_ari": NaN
+      "sd_ari": null
     },
     {
       "pair_type": "LDA-MiniLM",
