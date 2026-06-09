@@ -16,6 +16,9 @@ const state = {
   model: null,
   trajectory: [],
   table: null,
+  tableSort: {key: 'delta_23_25_pct_points', dir: 'desc'},
+  tableSearch: '',
+  tableSortingBound: false,
   selectedTopicId: null,
   currentFilter: 'all',
   evidenceMode: 'endpoint'
@@ -286,12 +289,88 @@ function bindControls(){
     }, 80);
   }));
 }
-function filteredTopics(){return state.topics.filter(t=>{if(state.currentFilter==='rising') return t.delta_23_25_pct_points>0; if(state.currentFilter==='declining') return t.delta_23_25_pct_points<0; if(state.currentFilter==='llm') return /llm|language|reasoning|safety|alignment|lora|attention/i.test(t.label); if(state.currentFilter==='highRatedDeclining') return t.delta_23_25_pct_points<0 && t.z_rating>0; return true;});}
+function filteredTopics(){
+  return state.topics.filter(t=>{
+    if(state.currentFilter==='rising' && !(t.delta_23_25_pct_points>0)) return false;
+    if(state.currentFilter==='declining' && !(t.delta_23_25_pct_points<0)) return false;
+    if(state.currentFilter==='llm' && !/llm|language|reasoning|safety|alignment|lora|attention/i.test(t.label)) return false;
+    if(state.currentFilter==='highRatedDeclining' && !(t.delta_23_25_pct_points<0 && t.z_rating>0)) return false;
+    const q = (state.tableSearch || '').trim().toLowerCase();
+    if(!q) return true;
+    const haystack = [
+      t.label,
+      t.trajectory_type,
+      t.interpretation,
+      ...(t.keywords || [])
+    ].join(' ').toLowerCase();
+    return haystack.includes(q);
+  });
+}
+function getTopicSortValue(t, key){
+  if(key==='label') return String(t.label || '').toLowerCase();
+  if(key==='size_total') return Number(t.size_total || 0);
+  if(key==='share_2023') return Number(t.years['2023']?.accepted_share_pct || 0);
+  if(key==='share_2024') return Number(t.years['2024']?.accepted_share_pct || 0);
+  if(key==='share_2025') return Number(t.years['2025']?.accepted_share_pct || 0);
+  if(key==='delta_23_25_pct_points') return Number(t.delta_23_25_pct_points || 0);
+  if(key==='z_rating') return Number(t.z_rating || 0);
+  if(key==='trajectory_type') return String(t.trajectory_type || '').toLowerCase();
+  return '';
+}
+function sortTopics(topics){
+  const {key, dir} = state.tableSort;
+  const sign = dir === 'asc' ? 1 : -1;
+  return [...topics].sort((a,b)=>{
+    const av = getTopicSortValue(a,key);
+    const bv = getTopicSortValue(b,key);
+    if(typeof av === 'string' || typeof bv === 'string') return sign * String(av).localeCompare(String(bv));
+    return sign * ((av||0) - (bv||0));
+  });
+}
+function ensureTopicTableTools(){
+  const table = document.querySelector('#topicsTable');
+  if(!table || document.getElementById('topicSearch')) return;
+  const tools = document.createElement('div');
+  tools.className = 'topic-table-tools d-flex flex-wrap align-items-center gap-2 mb-3';
+  tools.innerHTML = `
+    <input id="topicSearch" class="form-control form-control-sm topic-search-input" type="search" placeholder="Search topic, keyword, trajectory..." aria-label="Search topics">
+    <span id="topicCount" class="small text-secondary"></span>
+  `;
+  table.parentElement.insertBefore(tools, table);
+  document.getElementById('topicSearch').addEventListener('input', debounce((e)=>{
+    state.tableSearch = e.target.value;
+    renderTopicsTable();
+  }, 120));
+}
+function bindTopicHeaderSorting(){
+  if(state.tableSortingBound) return;
+  const headers = Array.from(document.querySelectorAll('#topicsTable thead th'));
+  const keys = ['label','size_total','share_2023','share_2024','share_2025','delta_23_25_pct_points','z_rating','trajectory_type',null];
+  headers.forEach((th, idx)=>{
+    const key = keys[idx];
+    if(!key) return;
+    th.classList.add('sortable-th');
+    th.title = 'Click to sort';
+    th.addEventListener('click', ()=>{
+      if(state.tableSort.key === key){
+        state.tableSort.dir = state.tableSort.dir === 'asc' ? 'desc' : 'asc';
+      } else {
+        state.tableSort.key = key;
+        state.tableSort.dir = (key === 'label' || key === 'trajectory_type') ? 'asc' : 'desc';
+      }
+      renderTopicsTable();
+    });
+  });
+  state.tableSortingBound = true;
+}
 function renderTopicsTable(){
-  if(state.table){state.table.destroy(); state.table=null;}
-  const rows = filteredTopics().map(t=>`<tr><td>${esc(t.label)}</td><td>${fmtInt(t.size_total)}</td><td>${fmt(t.years['2023'].accepted_share_pct,2)}</td><td>${fmt(t.years['2024'].accepted_share_pct,2)}</td><td>${fmt(t.years['2025'].accepted_share_pct,2)}</td><td>${fmtSigned(t.delta_23_25_pct_points,2)}</td><td>${fmt(t.z_rating,3)}</td><td>${esc(t.trajectory_type)}</td><td><button class="btn btn-sm btn-primary" data-topic-id="${t.topic_id}">View</button></td></tr>`).join('');
-  document.querySelector('#topicsTable tbody').innerHTML = rows;
-  state.table = new DataTable('#topicsTable',{pageLength:8,order:[[5,'desc']]});
+  ensureTopicTableTools();
+  bindTopicHeaderSorting();
+  const topics = sortTopics(filteredTopics());
+  const rows = topics.map(t=>`<tr><td>${esc(t.label)}</td><td>${fmtInt(t.size_total)}</td><td>${fmt(t.years['2023'].accepted_share_pct,2)}</td><td>${fmt(t.years['2024'].accepted_share_pct,2)}</td><td>${fmt(t.years['2025'].accepted_share_pct,2)}</td><td>${fmtSigned(t.delta_23_25_pct_points,2)}</td><td>${fmt(t.z_rating,3)}</td><td>${esc(t.trajectory_type)}</td><td><button class="btn btn-sm btn-primary" data-topic-id="${t.topic_id}">View</button></td></tr>`).join('');
+  document.querySelector('#topicsTable tbody').innerHTML = rows || '<tr><td colspan="9" class="text-secondary py-4">No topics match the current filter.</td></tr>';
+  const count = document.getElementById('topicCount');
+  if(count) count.textContent = `${topics.length} / ${state.topics.length} topics shown · click column headers to sort`;
   document.querySelector('#topicsTable tbody').onclick = e => {const b=e.target.closest('button[data-topic-id]'); if(!b)return; state.selectedTopicId=Number(b.dataset.topicId); renderInspector(state.selectedTopicId);};
 }
 function renderInspector(id){
