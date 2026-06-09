@@ -1,0 +1,1874 @@
+{
+  "topics": [
+    {
+      "topic_id": 8,
+      "raw_label": "8_reasoning_llms_language_to",
+      "label": "LLM reasoning",
+      "size_total": 486,
+      "keywords": [
+        "reasoning",
+        "llms",
+        "language"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.7713,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.8253,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 5.9591,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 1.054,
+      "delta_24_25_pct_points": 3.1339,
+      "delta_23_25_pct_points": 4.1879,
+      "z_rating": 0.0491,
+      "avg_rating": 4.9202,
+      "prestige_concentration": 0.1584,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Late-window acceleration: grows in both intervals and jumps most strongly from 2024 to 2025."
+    },
+    {
+      "topic_id": 1,
+      "raw_label": "1_3d_and_scene_to",
+      "label": "3D vision / scene generation",
+      "size_total": 882,
+      "keywords": [
+        "3d",
+        "vision",
+        "scene",
+        "generation"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 5.2828,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 7.7076,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 7.5861,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 2.4248,
+      "delta_24_25_pct_points": -0.1215,
+      "delta_23_25_pct_points": 2.3033,
+      "z_rating": -0.1019,
+      "avg_rating": 5.0405,
+      "prestige_concentration": 0.119,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Early expansion followed by plateau: large 2023→2024 gain, then slight decline in 2025."
+    },
+    {
+      "topic_id": 14,
+      "raw_label": "14_preference_reward_alignment_human",
+      "label": "preference learning / alignment",
+      "size_total": 200,
+      "keywords": [
+        "preference",
+        "reward",
+        "alignment",
+        "human"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.4351,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.0074,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.9864,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 1.5724,
+      "delta_24_25_pct_points": -0.0211,
+      "delta_23_25_pct_points": 1.5513,
+      "z_rating": 0.029,
+      "avg_rating": 5.0824,
+      "prestige_concentration": 0.135,
+      "trajectory_type": "early growth / plateau",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 23,
+      "raw_label": "23_safety_llms_harmful_attacks",
+      "label": "LLM safety / jailbreaks",
+      "size_total": 149,
+      "keywords": [
+        "safety",
+        "llms",
+        "harmful",
+        "attacks"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.2175,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.2144,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.7594,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.9968,
+      "delta_24_25_pct_points": 0.545,
+      "delta_23_25_pct_points": 1.5418,
+      "z_rating": -0.0229,
+      "avg_rating": 4.8849,
+      "prestige_concentration": 0.0738,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Emerging LLM-centered topic with consistent growth across both intervals."
+    },
+    {
+      "topic_id": 22,
+      "raw_label": "22_attention_memory_kv_cache",
+      "label": "efficient attention / KV cache",
+      "size_total": 252,
+      "keywords": [
+        "attention",
+        "memory",
+        "cache"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.3984,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.6853,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 2.6296,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.2869,
+      "delta_24_25_pct_points": 0.9443,
+      "delta_23_25_pct_points": 1.2312,
+      "z_rating": 0.0962,
+      "avg_rating": 5.109,
+      "prestige_concentration": 0.1468,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 21,
+      "raw_label": "21_video_temporal_understanding_and",
+      "label": "video temporal understanding",
+      "size_total": 173,
+      "keywords": [
+        "video",
+        "temporal",
+        "understanding"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.839,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.0905,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.9296,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.2514,
+      "delta_24_25_pct_points": 0.8392,
+      "delta_23_25_pct_points": 1.0906,
+      "z_rating": -0.0805,
+      "avg_rating": 4.8686,
+      "prestige_concentration": 0.1329,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 37,
+      "raw_label": "37_lora_finetuning_lowrank_adaptation",
+      "label": "LoRA / low-rank finetuning",
+      "size_total": 118,
+      "keywords": [
+        "lora",
+        "finetuning",
+        "lowrank",
+        "adaptation"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.3108,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.917,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.3432,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.6062,
+      "delta_24_25_pct_points": 0.4262,
+      "delta_23_25_pct_points": 1.0324,
+      "z_rating": 0.0042,
+      "avg_rating": 4.9316,
+      "prestige_concentration": 0.1441,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 46,
+      "raw_label": "46_language_llms_of_the",
+      "label": "language LLMs of the",
+      "size_total": 252,
+      "keywords": [
+        "language",
+        "llms"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.4916,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.057,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 2.2891,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.5654,
+      "delta_24_25_pct_points": 0.2321,
+      "delta_23_25_pct_points": 0.7975,
+      "z_rating": 0.1315,
+      "avg_rating": 5.2532,
+      "prestige_concentration": 0.1389,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 36,
+      "raw_label": "36_agents_llms_agent_language",
+      "label": "agents LLMs agent language",
+      "size_total": 196,
+      "keywords": [
+        "agents",
+        "llms",
+        "agent",
+        "language"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.1187,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.5118,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.8729,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3931,
+      "delta_24_25_pct_points": 0.3611,
+      "delta_23_25_pct_points": 0.7542,
+      "z_rating": 0.0539,
+      "avg_rating": 5.1555,
+      "prestige_concentration": 0.1531,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 20,
+      "raw_label": "20_vision_tokens_and_the",
+      "label": "vision tokens and the",
+      "size_total": 278,
+      "keywords": [
+        "vision",
+        "tokens"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.6781,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.5031,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 2.3269,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.825,
+      "delta_24_25_pct_points": -0.1762,
+      "delta_23_25_pct_points": 0.6488,
+      "z_rating": -0.0396,
+      "avg_rating": 5.121,
+      "prestige_concentration": 0.0971,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 3,
+      "raw_label": "3_multimodal_visual_and_to",
+      "label": "multimodal visual and to",
+      "size_total": 922,
+      "keywords": [
+        "multimodal",
+        "visual"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 6.9608,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 7.3854,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 7.5672,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.4245,
+      "delta_24_25_pct_points": 0.1818,
+      "delta_23_25_pct_points": 0.6063,
+      "z_rating": -0.0515,
+      "avg_rating": 5.137,
+      "prestige_concentration": 0.0998,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 38,
+      "raw_label": "38_watermarking_watermark_watermarks_image",
+      "label": "watermarking watermark watermarks image",
+      "size_total": 56,
+      "keywords": [
+        "watermarking",
+        "watermark",
+        "watermarks",
+        "image"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.0932,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.4709,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.6432,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3777,
+      "delta_24_25_pct_points": 0.1723,
+      "delta_23_25_pct_points": 0.55,
+      "z_rating": -0.0046,
+      "avg_rating": 4.8964,
+      "prestige_concentration": 0.125,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 7,
+      "raw_label": "7_protein_molecular_and_drug",
+      "label": "protein molecular and drug",
+      "size_total": 311,
+      "keywords": [
+        "protein",
+        "molecular",
+        "drug"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 2.082,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.6022,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 2.6296,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.5202,
+      "delta_24_25_pct_points": 0.0274,
+      "delta_23_25_pct_points": 0.5475,
+      "z_rating": 0.0478,
+      "avg_rating": 5.2059,
+      "prestige_concentration": 0.1383,
+      "trajectory_type": "early growth / plateau",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 11,
+      "raw_label": "11_series_time_forecasting_data",
+      "label": "series time forecasting data",
+      "size_total": 225,
+      "keywords": [
+        "series",
+        "time",
+        "forecasting",
+        "data"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.3673,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.9827,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.9107,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.6153,
+      "delta_24_25_pct_points": -0.0719,
+      "delta_23_25_pct_points": 0.5434,
+      "z_rating": 0.0484,
+      "avg_rating": 5.2258,
+      "prestige_concentration": 0.1111,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 26,
+      "raw_label": "26_video_motion_generation_temporal",
+      "label": "video motion generation temporal",
+      "size_total": 153,
+      "keywords": [
+        "video",
+        "motion",
+        "generation",
+        "temporal"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.9012,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.1896,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.4378,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.2884,
+      "delta_24_25_pct_points": 0.2482,
+      "delta_23_25_pct_points": 0.5366,
+      "z_rating": -0.0457,
+      "avg_rating": 5.03,
+      "prestige_concentration": 0.1569,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 49,
+      "raw_label": "49_hallucination_hallucinations_lvlms_decoding",
+      "label": "hallucination in LVLMs",
+      "size_total": 48,
+      "keywords": [
+        "hallucination",
+        "hallucinations",
+        "lvlms",
+        "decoding"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.0622,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.3965,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.5675,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3344,
+      "delta_24_25_pct_points": 0.171,
+      "delta_23_25_pct_points": 0.5054,
+      "z_rating": -0.0944,
+      "avg_rating": 4.8264,
+      "prestige_concentration": 0.0208,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 33,
+      "raw_label": "33_knowledge_retrieval_rag_query",
+      "label": "knowledge retrieval rag query",
+      "size_total": 113,
+      "keywords": [
+        "knowledge",
+        "retrieval",
+        "rag",
+        "query"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.6526,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.8922,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.0594,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.2396,
+      "delta_24_25_pct_points": 0.1672,
+      "delta_23_25_pct_points": 0.4068,
+      "z_rating": 0.002,
+      "avg_rating": 5.1161,
+      "prestige_concentration": 0.115,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 53,
+      "raw_label": "53_manipulation_dexterous_grasp_contact",
+      "label": "dexterous manipulation / robotics",
+      "size_total": 54,
+      "keywords": [
+        "manipulation",
+        "dexterous",
+        "grasp",
+        "contact"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.2797,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.223,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.681,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.0566,
+      "delta_24_25_pct_points": 0.458,
+      "delta_23_25_pct_points": 0.4014,
+      "z_rating": -0.0047,
+      "avg_rating": 4.7988,
+      "prestige_concentration": 0.1852,
+      "trajectory_type": "rebound",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 35,
+      "raw_label": "35_medical_segmentation_clinical_images",
+      "label": "medical image segmentation",
+      "size_total": 101,
+      "keywords": [
+        "medical",
+        "segmentation",
+        "clinical",
+        "images"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.5283,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.8674,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.927,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3391,
+      "delta_24_25_pct_points": 0.0596,
+      "delta_23_25_pct_points": 0.3987,
+      "z_rating": -0.0932,
+      "avg_rating": 5.0134,
+      "prestige_concentration": 0.0792,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 54,
+      "raw_label": "54_decoding_speculative_draft_inference",
+      "label": "decoding speculative draft inference",
+      "size_total": 60,
+      "keywords": [
+        "decoding",
+        "speculative",
+        "draft",
+        "inference"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.2797,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.5204,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.5675,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.2408,
+      "delta_24_25_pct_points": 0.0471,
+      "delta_23_25_pct_points": 0.2879,
+      "z_rating": 0.0726,
+      "avg_rating": 5.1458,
+      "prestige_concentration": 0.15,
+      "trajectory_type": "early growth / plateau",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 13,
+      "raw_label": "13_transformers_transformer_attention_of",
+      "label": "transformers transformer attention of",
+      "size_total": 200,
+      "keywords": [
+        "transformers",
+        "transformer",
+        "attention"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.3052,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.834,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.5891,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.5288,
+      "delta_24_25_pct_points": -0.2448,
+      "delta_23_25_pct_points": 0.2839,
+      "z_rating": 0.1402,
+      "avg_rating": 5.3733,
+      "prestige_concentration": 0.155,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 15,
+      "raw_label": "15_pdes_pde_equations_differential",
+      "label": "pdes pde equations differential",
+      "size_total": 185,
+      "keywords": [
+        "pdes",
+        "pde",
+        "equations",
+        "differential"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.3673,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.3383,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.6459,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.029,
+      "delta_24_25_pct_points": 0.3076,
+      "delta_23_25_pct_points": 0.2785,
+      "z_rating": 0.1499,
+      "avg_rating": 5.2941,
+      "prestige_concentration": 0.1459,
+      "trajectory_type": "late growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 32,
+      "raw_label": "32_continual_forgetting_knowledge_unlearning",
+      "label": "continual forgetting knowledge unlearning",
+      "size_total": 132,
+      "keywords": [
+        "continual",
+        "forgetting",
+        "knowledge",
+        "unlearning"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.9323,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.0657,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.1162,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.1334,
+      "delta_24_25_pct_points": 0.0505,
+      "delta_23_25_pct_points": 0.1839,
+      "z_rating": -0.0142,
+      "avg_rating": 5.1751,
+      "prestige_concentration": 0.0682,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 40,
+      "raw_label": "40_anomaly_detection_anomalies_normal",
+      "label": "anomaly detection anomalies normal",
+      "size_total": 59,
+      "keywords": [
+        "anomaly",
+        "detection",
+        "anomalies",
+        "normal"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.4351,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.3222,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.6054,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.1129,
+      "delta_24_25_pct_points": 0.2832,
+      "delta_23_25_pct_points": 0.1703,
+      "z_rating": -0.0468,
+      "avg_rating": 4.9503,
+      "prestige_concentration": 0.0678,
+      "trajectory_type": "rebound",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 2,
+      "raw_label": "2_diffusion_image_the_of",
+      "label": "diffusion image the of",
+      "size_total": 837,
+      "keywords": [
+        "diffusion",
+        "image"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 6.4947,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 6.8401,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 6.6591,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3454,
+      "delta_24_25_pct_points": -0.181,
+      "delta_23_25_pct_points": 0.1644,
+      "z_rating": 0.0426,
+      "avg_rating": 5.2554,
+      "prestige_concentration": 0.1386,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 45,
+      "raw_label": "45_recommendation_user_recommender_item",
+      "label": "recommender systems",
+      "size_total": 69,
+      "keywords": [
+        "recommendation",
+        "user",
+        "recommender",
+        "item"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.4661,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.5204,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.6243,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.0543,
+      "delta_24_25_pct_points": 0.1038,
+      "delta_23_25_pct_points": 0.1582,
+      "z_rating": -0.1089,
+      "avg_rating": 5.0297,
+      "prestige_concentration": 0.087,
+      "trajectory_type": "consistent growth",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 28,
+      "raw_label": "28_problems_optimization_combinatorial_search",
+      "label": "problems optimization combinatorial search",
+      "size_total": 136,
+      "keywords": [
+        "problems",
+        "optimization",
+        "combinatorial",
+        "search"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.1187,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.8426,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.2486,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2761,
+      "delta_24_25_pct_points": 0.406,
+      "delta_23_25_pct_points": 0.1299,
+      "z_rating": 0.0526,
+      "avg_rating": 5.181,
+      "prestige_concentration": 0.1471,
+      "trajectory_type": "rebound",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 44,
+      "raw_label": "44_conformal_prediction_coverage_sets",
+      "label": "conformal prediction coverage sets",
+      "size_total": 77,
+      "keywords": [
+        "conformal",
+        "prediction",
+        "coverage",
+        "sets"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.4972,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.6939,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.6243,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.1967,
+      "delta_24_25_pct_points": -0.0696,
+      "delta_23_25_pct_points": 0.1271,
+      "z_rating": 0.0713,
+      "avg_rating": 5.2775,
+      "prestige_concentration": 0.1169,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 55,
+      "raw_label": "55_face_facial_identity_deepfake",
+      "label": "face / deepfake detection",
+      "size_total": 46,
+      "keywords": [
+        "face",
+        "facial",
+        "identity",
+        "deepfake"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.2175,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.5204,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.3405,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3029,
+      "delta_24_25_pct_points": -0.1799,
+      "delta_23_25_pct_points": 0.123,
+      "z_rating": -0.1388,
+      "avg_rating": 5.0837,
+      "prestige_concentration": 0.0435,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 17,
+      "raw_label": "17_audio_speech_audiovisual_generation",
+      "label": "audio speech audiovisual generation",
+      "size_total": 132,
+      "keywords": [
+        "audio",
+        "speech",
+        "audiovisual",
+        "generation"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.0566,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.0409,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.0594,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.0157,
+      "delta_24_25_pct_points": 0.0185,
+      "delta_23_25_pct_points": 0.0028,
+      "z_rating": 0.1523,
+      "avg_rating": 5.3595,
+      "prestige_concentration": 0.1212,
+      "trajectory_type": "stable",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 50,
+      "raw_label": "50_quantization_quantized_lowbit_4bit",
+      "label": "quantization quantized lowbit 4bit",
+      "size_total": 88,
+      "keywords": [
+        "quantization",
+        "quantized",
+        "lowbit",
+        "4bit"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.6215,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.8674,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.6243,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.2459,
+      "delta_24_25_pct_points": -0.2431,
+      "delta_23_25_pct_points": 0.0028,
+      "z_rating": 0.0433,
+      "avg_rating": 5.3347,
+      "prestige_concentration": 0.1477,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Rising topic in accepted-paper share; inspect adjacent-year deltas for trajectory shape."
+    },
+    {
+      "topic_id": 47,
+      "raw_label": "47_quantum_classical_of_the",
+      "label": "quantum classical of the",
+      "size_total": 42,
+      "keywords": [
+        "quantum",
+        "classical"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.3729,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.3222,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.3216,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.0507,
+      "delta_24_25_pct_points": -0.0006,
+      "delta_23_25_pct_points": -0.0513,
+      "z_rating": 0.0651,
+      "avg_rating": 5.3381,
+      "prestige_concentration": 0.2143,
+      "trajectory_type": "early decline / plateau",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 48,
+      "raw_label": "48_pruning_sparsity_compression_sparse",
+      "label": "pruning sparsity compression sparse",
+      "size_total": 82,
+      "keywords": [
+        "pruning",
+        "sparsity",
+        "compression",
+        "sparse"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.5594,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.9418,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.4919,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.3824,
+      "delta_24_25_pct_points": -0.4499,
+      "delta_23_25_pct_points": -0.0675,
+      "z_rating": 0.0326,
+      "avg_rating": 5.4146,
+      "prestige_concentration": 0.0976,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 19,
+      "raw_label": "19_federated_fl_clients_client",
+      "label": "federated fl clients client",
+      "size_total": 132,
+      "keywords": [
+        "federated",
+        "clients",
+        "client"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.0566,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.2392,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.9081,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.1826,
+      "delta_24_25_pct_points": -0.3311,
+      "delta_23_25_pct_points": -0.1485,
+      "z_rating": -0.107,
+      "avg_rating": 5.1963,
+      "prestige_concentration": 0.053,
+      "trajectory_type": "spike then reversal",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 51,
+      "raw_label": "51_optimization_bayesian_bo_the",
+      "label": "optimization bayesian bo the",
+      "size_total": 77,
+      "keywords": [
+        "optimization",
+        "bayesian"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.6837,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.7187,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.4919,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": 0.0351,
+      "delta_24_25_pct_points": -0.2268,
+      "delta_23_25_pct_points": -0.1918,
+      "z_rating": 0.1454,
+      "avg_rating": 5.4688,
+      "prestige_concentration": 0.1818,
+      "trajectory_type": "late decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 42,
+      "raw_label": "42_backdoor_attacks_attack_defense",
+      "label": "backdoor attacks attack defense",
+      "size_total": 75,
+      "keywords": [
+        "backdoor",
+        "attacks",
+        "attack",
+        "defense"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.7458,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.5948,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.5108,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.151,
+      "delta_24_25_pct_points": -0.084,
+      "delta_23_25_pct_points": -0.235,
+      "z_rating": -0.1395,
+      "avg_rating": 5.1618,
+      "prestige_concentration": 0.08,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 52,
+      "raw_label": "52_ssl_selfsupervised_unlabeled_semisupervised",
+      "label": "ssl selfsupervised unlabeled semisupervised",
+      "size_total": 42,
+      "keywords": [
+        "ssl",
+        "selfsupervised",
+        "unlabeled",
+        "semisupervised"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.5283,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.3222,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.227,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2061,
+      "delta_24_25_pct_points": -0.0952,
+      "delta_23_25_pct_points": -0.3013,
+      "z_rating": 0.1219,
+      "avg_rating": 5.546,
+      "prestige_concentration": 0.1905,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 30,
+      "raw_label": "30_fairness_fair_groups_in",
+      "label": "fairness fair groups in",
+      "size_total": 89,
+      "keywords": [
+        "fairness",
+        "fair",
+        "groups"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.9323,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.6691,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.6054,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2631,
+      "delta_24_25_pct_points": -0.0638,
+      "delta_23_25_pct_points": -0.3269,
+      "z_rating": 0.0961,
+      "avg_rating": 5.4193,
+      "prestige_concentration": 0.0674,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 6,
+      "raw_label": "6_brain_spiking_of_and",
+      "label": "brain spiking of and",
+      "size_total": 402,
+      "keywords": [
+        "brain",
+        "spiking"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 3.6047,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.8005,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 3.2728,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.8042,
+      "delta_24_25_pct_points": 0.4723,
+      "delta_23_25_pct_points": -0.3319,
+      "z_rating": 0.1781,
+      "avg_rating": 5.3893,
+      "prestige_concentration": 0.1741,
+      "trajectory_type": "rebound",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 39,
+      "raw_label": "39_clustering_algorithm_algorithms_approximation",
+      "label": "clustering / approximation algorithms",
+      "size_total": 87,
+      "keywords": [
+        "clustering",
+        "algorithm",
+        "algorithms",
+        "approximation"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.9323,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.6691,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.5675,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2631,
+      "delta_24_25_pct_points": -0.1016,
+      "delta_23_25_pct_points": -0.3647,
+      "z_rating": 0.2119,
+      "avg_rating": 5.5611,
+      "prestige_concentration": 0.1034,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 43,
+      "raw_label": "43_ood_detection_outofdistribution_id",
+      "label": "ood detection outofdistribution id",
+      "size_total": 76,
+      "keywords": [
+        "ood",
+        "detection",
+        "outofdistribution"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 0.8701,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.6444,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.4162,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2257,
+      "delta_24_25_pct_points": -0.2282,
+      "delta_23_25_pct_points": -0.4539,
+      "z_rating": -0.0477,
+      "avg_rating": 5.3673,
+      "prestige_concentration": 0.0658,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 31,
+      "raw_label": "31_label_labels_the_noisy",
+      "label": "label labels the noisy",
+      "size_total": 147,
+      "keywords": [
+        "label",
+        "labels",
+        "noisy"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.4605,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.1896,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.9837,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2709,
+      "delta_24_25_pct_points": -0.2059,
+      "delta_23_25_pct_points": -0.4768,
+      "z_rating": 0.0291,
+      "avg_rating": 5.3474,
+      "prestige_concentration": 0.102,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 34,
+      "raw_label": "34_communication_distributed_federated_convergence",
+      "label": "communication distributed federated convergence",
+      "size_total": 96,
+      "keywords": [
+        "communication",
+        "distributed",
+        "federated",
+        "convergence"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.0255,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.9665,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.454,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.0589,
+      "delta_24_25_pct_points": -0.5125,
+      "delta_23_25_pct_points": -0.5715,
+      "z_rating": 0.0511,
+      "avg_rating": 5.5305,
+      "prestige_concentration": 0.1146,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 41,
+      "raw_label": "41_equivariant_symmetries_group_symmetry",
+      "label": "equivariant symmetries group symmetry",
+      "size_total": 97,
+      "keywords": [
+        "equivariant",
+        "symmetries",
+        "group",
+        "symmetry"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.3052,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.7187,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.4919,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.5864,
+      "delta_24_25_pct_points": -0.2268,
+      "delta_23_25_pct_points": -0.8133,
+      "z_rating": 0.1512,
+      "avg_rating": 5.6141,
+      "prestige_concentration": 0.1546,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 9,
+      "raw_label": "9_causal_treatment_variables_of",
+      "label": "causal treatment variables of",
+      "size_total": 280,
+      "keywords": [
+        "causal",
+        "treatment",
+        "variables"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 2.7657,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.2305,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.9107,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.5352,
+      "delta_24_25_pct_points": -0.3198,
+      "delta_23_25_pct_points": -0.855,
+      "z_rating": 0.0734,
+      "avg_rating": 5.3864,
+      "prestige_concentration": 0.1286,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 25,
+      "raw_label": "25_games_game_equilibrium_equilibria",
+      "label": "game theory / equilibria",
+      "size_total": 124,
+      "keywords": [
+        "games",
+        "game",
+        "equilibrium",
+        "equilibria"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 1.5848,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 0.8922,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.7,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.6926,
+      "delta_24_25_pct_points": -0.1922,
+      "delta_23_25_pct_points": -0.8849,
+      "z_rating": 0.2236,
+      "avg_rating": 5.6456,
+      "prestige_concentration": 0.1613,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 24,
+      "raw_label": "24_the_of_is_we",
+      "label": "statistical learning theory",
+      "size_total": 222,
+      "keywords": [
+        "statistical",
+        "learning",
+        "theory"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 2.2996,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.0322,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.2486,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.2673,
+      "delta_24_25_pct_points": -0.7836,
+      "delta_23_25_pct_points": -1.051,
+      "z_rating": 0.2466,
+      "avg_rating": 5.6715,
+      "prestige_concentration": 0.1757,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 18,
+      "raw_label": "18_optimization_convergence_gradient_convex",
+      "label": "convex optimization",
+      "size_total": 236,
+      "keywords": [
+        "optimization",
+        "convergence",
+        "gradient",
+        "convex"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 2.5482,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.9083,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.4567,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.6399,
+      "delta_24_25_pct_points": -0.4516,
+      "delta_23_25_pct_points": -1.0915,
+      "z_rating": 0.0963,
+      "avg_rating": 5.4702,
+      "prestige_concentration": 0.1356,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 16,
+      "raw_label": "16_the_of_deep_gradient",
+      "label": "deep learning theory",
+      "size_total": 298,
+      "keywords": [
+        "deep",
+        "gradient"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 3.0143,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.5031,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.8918,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.5112,
+      "delta_24_25_pct_points": -0.6113,
+      "delta_23_25_pct_points": -1.1225,
+      "z_rating": 0.1514,
+      "avg_rating": 5.5112,
+      "prestige_concentration": 0.1577,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 10,
+      "raw_label": "10_privacy_private_dp_differentially",
+      "label": "differential privacy",
+      "size_total": 219,
+      "keywords": [
+        "privacy",
+        "private",
+        "differentially"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 2.6725,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.5861,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.3053,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -1.0863,
+      "delta_24_25_pct_points": -0.2808,
+      "delta_23_25_pct_points": -1.3671,
+      "z_rating": 0.166,
+      "avg_rating": 5.5605,
+      "prestige_concentration": 0.1689,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 27,
+      "raw_label": "27_bayesian_posterior_inference_of",
+      "label": "Bayesian inference",
+      "size_total": 249,
+      "keywords": [
+        "bayesian",
+        "posterior",
+        "inference"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 3.1386,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.5861,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.5891,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -1.5525,
+      "delta_24_25_pct_points": 0.003,
+      "delta_23_25_pct_points": -1.5495,
+      "z_rating": 0.1936,
+      "avg_rating": 5.5574,
+      "prestige_concentration": 0.1285,
+      "trajectory_type": "early decline / plateau",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 12,
+      "raw_label": "12_adversarial_attacks_robustness_attack",
+      "label": "adversarial robustness",
+      "size_total": 258,
+      "keywords": [
+        "adversarial",
+        "attacks",
+        "robustness",
+        "attack"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 3.0454,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 2.1066,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 1.4188,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -0.9388,
+      "delta_24_25_pct_points": -0.6877,
+      "delta_23_25_pct_points": -1.6265,
+      "z_rating": -0.0491,
+      "avg_rating": 5.3667,
+      "prestige_concentration": 0.1085,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 29,
+      "raw_label": "29_matrix_the_of_is",
+      "label": "matrix algorithms",
+      "size_total": 201,
+      "keywords": [
+        "matrix",
+        "algorithms"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 2.6414,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 1.5861,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 0.9837,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -1.0553,
+      "delta_24_25_pct_points": -0.6024,
+      "delta_23_25_pct_points": -1.6577,
+      "z_rating": 0.2135,
+      "avg_rating": 5.6957,
+      "prestige_concentration": 0.204,
+      "trajectory_type": "consistent decline",
+      "interpretation": "High-rated but declining mathematical area; share falls in both intervals."
+    },
+    {
+      "topic_id": 5,
+      "raw_label": "5_regret_the_bandits_bandit",
+      "label": "bandits / regret minimization",
+      "size_total": 482,
+      "keywords": [
+        "regret",
+        "bandits",
+        "bandit"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 4.8788,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 3.8662,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 3.1971,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -1.0126,
+      "delta_24_25_pct_points": -0.669,
+      "delta_23_25_pct_points": -1.6817,
+      "z_rating": 0.1333,
+      "avg_rating": 5.4675,
+      "prestige_concentration": 0.1162,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Declining topic in accepted-paper share; this does not imply lower paper quality."
+    },
+    {
+      "topic_id": 4,
+      "raw_label": "4_graph_graphs_gnns_node",
+      "label": "graph neural networks",
+      "size_total": 507,
+      "keywords": [
+        "graph",
+        "graphs",
+        "gnns",
+        "node"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 5.2517,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 3.9405,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 3.3863,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -1.3112,
+      "delta_24_25_pct_points": -0.5542,
+      "delta_23_25_pct_points": -1.8654,
+      "z_rating": 0.056,
+      "avg_rating": 5.3833,
+      "prestige_concentration": 0.1006,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Consistent decline in accepted-paper share, not evidence of field-level collapse."
+    },
+    {
+      "topic_id": 0,
+      "raw_label": "0_policy_rl_reinforcement_the",
+      "label": "RL / policy learning",
+      "size_total": 1029,
+      "keywords": [
+        "policy",
+        "reinforcement"
+      ],
+      "years": {
+        "2023": {
+          "accepted_share_pct": 9.8198,
+          "accepted_count": null
+        },
+        "2024": {
+          "accepted_share_pct": 8.0297,
+          "accepted_count": null
+        },
+        "2025": {
+          "accepted_share_pct": 7.3591,
+          "accepted_count": null
+        }
+      },
+      "delta_23_24_pct_points": -1.79,
+      "delta_24_25_pct_points": -0.6707,
+      "delta_23_25_pct_points": -2.4607,
+      "z_rating": 0.0546,
+      "avg_rating": 5.3418,
+      "prestige_concentration": 0.1166,
+      "trajectory_type": "consistent decline",
+      "interpretation": "Large established area whose relative accepted-paper share declines across both intervals."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+x,y,method,n_topics,statistic,p_value
+delta_share_pp,avg_rating_z_year,pearson,56,-0.3842606932307198,0.0034573384739652905
+delta_share_pp,avg_rating_z_year,spearman,56,-0.4713602187286398,0.00024557309189312317
+delta_share_pp,avg_rating,pearson,56,-0.7074296106246324,1.0916680467255675e-09
+delta_share_pp,avg_rating,spearman,56,-0.8182501708817499,1.3600128767503218e-14

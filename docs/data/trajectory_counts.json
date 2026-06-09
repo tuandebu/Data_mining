@@ -1,0 +1,40 @@
+{
+  "trajectory_counts": [
+    {
+      "trajectory_type": "consistent decline",
+      "n_topics": 19
+    },
+    {
+      "trajectory_type": "consistent growth",
+      "n_topics": 15
+    },
+    {
+      "trajectory_type": "spike then reversal",
+      "n_topics": 10
+    },
+    {
+      "trajectory_type": "rebound",
+      "n_topics": 4
+    },
+    {
+      "trajectory_type": "early growth / plateau",
+      "n_topics": 3
+    },
+    {
+      "trajectory_type": "early decline / plateau",
+      "n_topics": 2
+    },
+    {
+      "trajectory_type": "late growth",
+      "n_topics": 1
+    },
+    {
+      "trajectory_type": "stable",
+      "n_topics": 1
+    },
+    {
+      "trajectory_type": "late decline",
+      "n_topics": 1
+    }
+  ]
+}
