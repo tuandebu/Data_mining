@@ -20,8 +20,8 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item"><a class="nav-link" href="#validity">Validity</a></li>
         <li class="nav-item"><a class="nav-link" href="#pipeline">Pipeline</a></li>
-        <li class="nav-item"><a class="nav-link" href="#model">Model</a></li>
         <li class="nav-item"><a class="nav-link" href="#trends">Trends</a></li>
+        <li class="nav-item"><a class="nav-link" href="#model">Model</a></li>
         <li class="nav-item"><a class="nav-link" href="#evidence">Evidence</a></li>
         <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
         <li class="nav-item"><a class="nav-link" href="#repro">Reproducibility</a></li>
@@ -115,25 +115,6 @@ flowchart LR
     </div>
   </section>
 
-  <section id="model" class="mb-5">
-    <div class="row g-4">
-      <div class="col-lg-6">
-        <div class="card border-0 shadow-sm h-100"><div class="card-body p-4">
-          <h2 class="h4 mb-3">Model selection</h2>
-          <img src="./assets/img/model_selection_tradeoff.png" class="img-fluid rounded border" alt="BERTopic model-selection tradeoff scatter">
-          <div id="modelTable" class="mt-3"></div>
-        </div></div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card border-0 shadow-sm h-100"><div class="card-body p-4">
-          <h2 class="h4 mb-3">Assignment stability</h2>
-          <img src="./assets/img/stability_summary.png" class="img-fluid rounded border" alt="Topic assignment stability chart">
-          <p class="small text-secondary mt-3 mb-0">Same-family BERTopic runs are substantially more stable than cross-embedding or LDA comparisons.</p>
-        </div></div>
-      </div>
-    </div>
-  </section>
-
   <section id="trends" class="mb-5">
     <div class="card border-0 shadow-sm"><div class="card-body p-4">
       <h2 class="h4 mb-2">Topic movement: 2023 → 2024 → 2025</h2>
@@ -159,8 +140,24 @@ flowchart LR
     </div></div>
   </section>
 
-
-  <section id="evidence" class="mb-5">
+<section id="model" class="mb-5">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm h-100"><div class="card-body p-4">
+          <h2 class="h4 mb-3">Model selection</h2>
+          <img src="./assets/img/model_selection_tradeoff.png" class="img-fluid rounded border" alt="BERTopic model-selection tradeoff scatter">
+          <div id="modelTable" class="mt-3"></div>
+        </div></div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm h-100"><div class="card-body p-4">
+          <h2 class="h4 mb-3">Assignment stability</h2>
+          <img src="./assets/img/stability_summary.png" class="img-fluid rounded border" alt="Topic assignment stability chart">
+          <p class="small text-secondary mt-3 mb-0">Same-family BERTopic runs are substantially more stable than cross-embedding or LDA comparisons.</p>
+        </div></div>
+      </div>
+    </div>
+  </section><section id="evidence" class="mb-5">
     <div class="card border-0 shadow-sm"><div class="card-body p-4">
       <div class="d-flex justify-content-between align-items-start flex-wrap gap-3 mb-3">
         <div>
@@ -236,6 +233,6 @@ python -m http.server 8000
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'loose' });
 </script>
-<script src="./assets/js/app.js?v=7"></script>
+<script src="./assets/js/app.js?v=10"></script>
 </body>
 </html>
