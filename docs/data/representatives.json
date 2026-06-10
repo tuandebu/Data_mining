@@ -125,7 +125,7 @@
     {
       "topic_id": 2,
       "raw_label": "Diffusion image the of",
-      "label": "diffusion image the of",
+      "label": "image diffusion models",
       "papers": [
         {
           "rank": 1,
@@ -187,7 +187,7 @@
     {
       "topic_id": 3,
       "raw_label": "Multimodal visual and to",
-      "label": "multimodal visual and to",
+      "label": "multimodal visual learning",
       "papers": [
         {
           "rank": 1,
@@ -371,7 +371,7 @@
     {
       "topic_id": 6,
       "raw_label": "Brain spiking of and",
-      "label": "brain spiking of and",
+      "label": "brain / spiking neural networks",
       "papers": [
         {
           "rank": 1,
@@ -433,7 +433,7 @@
     {
       "topic_id": 7,
       "raw_label": "Protein molecular and drug",
-      "label": "protein molecular and drug",
+      "label": "protein / molecular modeling / drug discovery",
       "papers": [
         {
           "rank": 1,
@@ -556,7 +556,7 @@
     {
       "topic_id": 9,
       "raw_label": "Causal treatment variables of",
-      "label": "causal treatment variables of",
+      "label": "causal inference / treatment effects",
       "papers": [
         {
           "rank": 1,
@@ -679,7 +679,7 @@
     {
       "topic_id": 11,
       "raw_label": "Series time forecasting data",
-      "label": "series time forecasting data",
+      "label": "time-series forecasting",
       "papers": [
         {
           "rank": 1,
@@ -802,7 +802,7 @@
     {
       "topic_id": 13,
       "raw_label": "Transformers transformer attention of",
-      "label": "transformers transformer attention of",
+      "label": "transformers / attention mechanisms",
       "papers": [
         {
           "rank": 1,
@@ -925,7 +925,7 @@
     {
       "topic_id": 15,
       "raw_label": "Pdes pde equations differential",
-      "label": "pdes pde equations differential",
+      "label": "PDEs / differential equations",
       "papers": [
         {
           "rank": 1,
@@ -1049,7 +1049,7 @@
     {
       "topic_id": 17,
       "raw_label": "Audio speech audiovisual generation",
-      "label": "audio speech audiovisual generation",
+      "label": "audio / speech / audiovisual generation",
       "papers": [
         {
           "rank": 1,
@@ -1173,7 +1173,7 @@
     {
       "topic_id": 19,
       "raw_label": "Federated fl clients client",
-      "label": "federated fl clients client",
+      "label": "federated learning",
       "papers": [
         {
           "rank": 1,
@@ -1235,7 +1235,7 @@
     {
       "topic_id": 20,
       "raw_label": "Vision tokens and the",
-      "label": "vision tokens and the",
+      "label": "vision tokens",
       "papers": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
     {
       "topic_id": 30,
       "raw_label": "Fairness fair groups in",
-      "label": "fairness fair groups in",
+      "label": "fairness / group fairness",
       "papers": [
         {
           "rank": 1,
@@ -1911,7 +1911,7 @@
     {
       "topic_id": 31,
       "raw_label": "Label labels the noisy",
-      "label": "label labels the noisy",
+      "label": "noisy labels / label noise",
       "papers": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
     {
       "topic_id": 32,
       "raw_label": "Continual forgetting knowledge unlearning",
-      "label": "continual forgetting knowledge unlearning",
+      "label": "continual learning / unlearning",
       "papers": [
         {
           "rank": 1,
@@ -2035,7 +2035,7 @@
     {
       "topic_id": 33,
       "raw_label": "Knowledge retrieval rag query",
-      "label": "knowledge retrieval rag query",
+      "label": "retrieval-augmented generation / knowledge retrieval",
       "papers": [
         {
           "rank": 1,
@@ -2159,7 +2159,7 @@
     {
       "topic_id": 35,
       "raw_label": "Medical segmentation clinical images",
-      "label": "medical segmentation clinical images",
+      "label": "medical image segmentation",
       "papers": [
         {
           "rank": 1,
@@ -2221,7 +2221,7 @@
     {
       "topic_id": 36,
       "raw_label": "Agents LLMs agent language",
-      "label": "agents LLMs agent language",
+      "label": "LLM agents",
       "papers": [
         {
           "rank": 1,
@@ -2344,7 +2344,7 @@
     {
       "topic_id": 38,
       "raw_label": "Watermarking watermark watermarks image",
-      "label": "watermarking watermark watermarks image",
+      "label": "image watermarking",
       "papers": [
         {
           "rank": 1,
@@ -2468,7 +2468,7 @@
     {
       "topic_id": 40,
       "raw_label": "Anomaly detection anomalies normal",
-      "label": "anomaly detection anomalies normal",
+      "label": "anomaly detection",
       "papers": [
         {
           "rank": 1,
@@ -2530,7 +2530,7 @@
     {
       "topic_id": 41,
       "raw_label": "Equivariant symmetries group symmetry",
-      "label": "equivariant symmetries group symmetry",
+      "label": "equivariance / symmetry groups",
       "papers": [
         {
           "rank": 1,
@@ -2654,7 +2654,7 @@
     {
       "topic_id": 43,
       "raw_label": "Ood detection outofdistribution id",
-      "label": "ood detection outofdistribution id",
+      "label": "OOD detection",
       "papers": [
         {
           "rank": 1,
@@ -2716,7 +2716,7 @@
     {
       "topic_id": 44,
       "raw_label": "Conformal prediction coverage sets",
-      "label": "conformal prediction coverage sets",
+      "label": "conformal prediction",
       "papers": [
         {
           "rank": 1,
@@ -2778,7 +2778,7 @@
     {
       "topic_id": 45,
       "raw_label": "Recommendation user recommender item",
-      "label": "recommendation user recommender item",
+      "label": "recommender systems",
       "papers": [
         {
           "rank": 1,
@@ -2902,7 +2902,7 @@
     {
       "topic_id": 47,
       "raw_label": "Quantum classical of the",
-      "label": "quantum classical of the",
+      "label": "quantum / classical learning",
       "papers": [
         {
           "rank": 1,
@@ -2964,7 +2964,7 @@
     {
       "topic_id": 48,
       "raw_label": "Pruning sparsity compression sparse",
-      "label": "pruning sparsity compression sparse",
+      "label": "pruning / sparsity / compression",
       "papers": [
         {
           "rank": 1,
@@ -3088,7 +3088,7 @@
     {
       "topic_id": 50,
       "raw_label": "Quantization quantized lowbit 4bit",
-      "label": "quantization quantized lowbit 4bit",
+      "label": "model quantization / low-bit inference",
       "papers": [
         {
           "rank": 1,
@@ -3212,7 +3212,7 @@
     {
       "topic_id": 52,
       "raw_label": "Ssl selfsupervised unlabeled semisupervised",
-      "label": "ssl selfsupervised unlabeled semisupervised",
+      "label": "self-supervised learning",
       "papers": [
         {
           "rank": 1,
@@ -3274,7 +3274,7 @@
     {
       "topic_id": 53,
       "raw_label": "Manipulation dexterous grasp contact",
-      "label": "manipulation dexterous grasp contact",
+      "label": "dexterous manipulation / grasping",
       "papers": [
         {
           "rank": 1,
@@ -3336,7 +3336,7 @@
     {
       "topic_id": 54,
       "raw_label": "Decoding speculative draft inference",
-      "label": "decoding speculative draft inference",
+      "label": "speculative decoding / inference",
       "papers": [
         {
           "rank": 1,
@@ -3398,7 +3398,7 @@
     {
       "topic_id": 55,
       "raw_label": "Face facial identity deepfake",
-      "label": "face facial identity deepfake",
+      "label": "face identity / deepfake detection",
       "papers": [
         {
           "rank": 1,

@@ -116,7 +116,8 @@
     {
       "direction": "Rising",
       "topic_id": 36,
-      "label": "agents LLMs agent language",
+      "raw_label": "agents LLMs agent language",
+      "label": "LLM agents",
       "size": 196,
       "share_2023": 1.12,
       "share_2024": 1.51,
@@ -130,7 +131,8 @@
     {
       "direction": "Rising",
       "topic_id": 20,
-      "label": "vision tokens and the",
+      "raw_label": "vision tokens and the",
+      "label": "vision tokens",
       "size": 278,
       "share_2023": 1.68,
       "share_2024": 2.5,
