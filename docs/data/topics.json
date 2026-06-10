@@ -236,7 +236,7 @@
     },
     {
       "topic_id": 46,
-      "label": "Language LLMs of the",
+      "label": "language modeling / LLMs",
       "raw_label": "46_language_llms_of_the",
       "size_total": 252,
       "keywords": [
@@ -268,7 +268,7 @@
     },
     {
       "topic_id": 36,
-      "label": "Agents LLMs agent language",
+      "label": "agents LLMs agent language",
       "raw_label": "36_agents_llms_agent_language",
       "size_total": 196,
       "keywords": [
@@ -302,7 +302,7 @@
     },
     {
       "topic_id": 20,
-      "label": "Vision tokens and the",
+      "label": "vision tokens and the",
       "raw_label": "20_vision_tokens_and_the",
       "size_total": 278,
       "keywords": [
@@ -334,7 +334,7 @@
     },
     {
       "topic_id": 3,
-      "label": "Multimodal visual and to",
+      "label": "multimodal visual and to",
       "raw_label": "3_multimodal_visual_and_to",
       "size_total": 922,
       "keywords": [
@@ -366,7 +366,7 @@
     },
     {
       "topic_id": 38,
-      "label": "Watermarking watermark watermarks image",
+      "label": "watermarking watermark watermarks image",
       "raw_label": "38_watermarking_watermark_watermarks_image",
       "size_total": 56,
       "keywords": [
@@ -400,7 +400,7 @@
     },
     {
       "topic_id": 7,
-      "label": "Protein molecular and drug",
+      "label": "protein molecular and drug",
       "raw_label": "7_protein_molecular_and_drug",
       "size_total": 311,
       "keywords": [
@@ -433,7 +433,7 @@
     },
     {
       "topic_id": 11,
-      "label": "Series time forecasting data",
+      "label": "series time forecasting data",
       "raw_label": "11_series_time_forecasting_data",
       "size_total": 225,
       "keywords": [
@@ -467,7 +467,7 @@
     },
     {
       "topic_id": 26,
-      "label": "Video motion generation temporal",
+      "label": "video temporal understanding",
       "raw_label": "26_video_motion_generation_temporal",
       "size_total": 153,
       "keywords": [
@@ -501,7 +501,7 @@
     },
     {
       "topic_id": 49,
-      "label": "Hallucination hallucinations lvlms decoding",
+      "label": "hallucination in LVLMs",
       "raw_label": "49_hallucination_hallucinations_lvlms_decoding",
       "size_total": 48,
       "keywords": [
@@ -535,7 +535,7 @@
     },
     {
       "topic_id": 33,
-      "label": "Knowledge retrieval rag query",
+      "label": "knowledge retrieval rag query",
       "raw_label": "33_knowledge_retrieval_rag_query",
       "size_total": 113,
       "keywords": [
@@ -569,7 +569,7 @@
     },
     {
       "topic_id": 53,
-      "label": "Manipulation dexterous grasp contact",
+      "label": "manipulation dexterous grasp contact",
       "raw_label": "53_manipulation_dexterous_grasp_contact",
       "size_total": 54,
       "keywords": [
@@ -603,7 +603,7 @@
     },
     {
       "topic_id": 35,
-      "label": "Medical segmentation clinical images",
+      "label": "medical segmentation clinical images",
       "raw_label": "35_medical_segmentation_clinical_images",
       "size_total": 101,
       "keywords": [
@@ -637,7 +637,7 @@
     },
     {
       "topic_id": 54,
-      "label": "Decoding speculative draft inference",
+      "label": "decoding speculative draft inference",
       "raw_label": "54_decoding_speculative_draft_inference",
       "size_total": 60,
       "keywords": [
@@ -671,7 +671,7 @@
     },
     {
       "topic_id": 13,
-      "label": "Transformers transformer attention of",
+      "label": "transformers transformer attention of",
       "raw_label": "13_transformers_transformer_attention_of",
       "size_total": 200,
       "keywords": [
@@ -704,7 +704,7 @@
     },
     {
       "topic_id": 15,
-      "label": "Pdes pde equations differential",
+      "label": "pdes pde equations differential",
       "raw_label": "15_pdes_pde_equations_differential",
       "size_total": 185,
       "keywords": [
@@ -738,7 +738,7 @@
     },
     {
       "topic_id": 32,
-      "label": "Continual forgetting knowledge unlearning",
+      "label": "continual forgetting knowledge unlearning",
       "raw_label": "32_continual_forgetting_knowledge_unlearning",
       "size_total": 132,
       "keywords": [
@@ -772,7 +772,7 @@
     },
     {
       "topic_id": 40,
-      "label": "Anomaly detection anomalies normal",
+      "label": "anomaly detection anomalies normal",
       "raw_label": "40_anomaly_detection_anomalies_normal",
       "size_total": 59,
       "keywords": [
@@ -806,7 +806,7 @@
     },
     {
       "topic_id": 2,
-      "label": "Diffusion image the of",
+      "label": "diffusion image the of",
       "raw_label": "2_diffusion_image_the_of",
       "size_total": 837,
       "keywords": [
@@ -838,7 +838,7 @@
     },
     {
       "topic_id": 45,
-      "label": "Recommendation user recommender item",
+      "label": "recommendation user recommender item",
       "raw_label": "45_recommendation_user_recommender_item",
       "size_total": 69,
       "keywords": [
@@ -872,7 +872,7 @@
     },
     {
       "topic_id": 28,
-      "label": "Problems optimization combinatorial search",
+      "label": "optimization / convergence / gradients",
       "raw_label": "28_problems_optimization_combinatorial_search",
       "size_total": 136,
       "keywords": [
@@ -906,7 +906,7 @@
     },
     {
       "topic_id": 44,
-      "label": "Conformal prediction coverage sets",
+      "label": "conformal prediction coverage sets",
       "raw_label": "44_conformal_prediction_coverage_sets",
       "size_total": 77,
       "keywords": [
@@ -940,7 +940,7 @@
     },
     {
       "topic_id": 55,
-      "label": "Face facial identity deepfake",
+      "label": "face facial identity deepfake",
       "raw_label": "55_face_facial_identity_deepfake",
       "size_total": 46,
       "keywords": [
@@ -974,7 +974,7 @@
     },
     {
       "topic_id": 17,
-      "label": "Audio speech audiovisual generation",
+      "label": "audio speech audiovisual generation",
       "raw_label": "17_audio_speech_audiovisual_generation",
       "size_total": 132,
       "keywords": [
@@ -1008,7 +1008,7 @@
     },
     {
       "topic_id": 50,
-      "label": "Quantization quantized lowbit 4bit",
+      "label": "quantization quantized lowbit 4bit",
       "raw_label": "50_quantization_quantized_lowbit_4bit",
       "size_total": 88,
       "keywords": [
@@ -1042,7 +1042,7 @@
     },
     {
       "topic_id": 47,
-      "label": "Quantum classical of the",
+      "label": "quantum classical of the",
       "raw_label": "47_quantum_classical_of_the",
       "size_total": 42,
       "keywords": [
@@ -1074,7 +1074,7 @@
     },
     {
       "topic_id": 48,
-      "label": "Pruning sparsity compression sparse",
+      "label": "pruning sparsity compression sparse",
       "raw_label": "48_pruning_sparsity_compression_sparse",
       "size_total": 82,
       "keywords": [
@@ -1108,7 +1108,7 @@
     },
     {
       "topic_id": 19,
-      "label": "Federated fl clients client",
+      "label": "federated fl clients client",
       "raw_label": "19_federated_fl_clients_client",
       "size_total": 132,
       "keywords": [
@@ -1142,7 +1142,7 @@
     },
     {
       "topic_id": 51,
-      "label": "Optimization bayesian bo the",
+      "label": "Bayesian inference",
       "raw_label": "51_optimization_bayesian_bo_the",
       "size_total": 77,
       "keywords": [
@@ -1175,7 +1175,7 @@
     },
     {
       "topic_id": 42,
-      "label": "Backdoor attacks attack defense",
+      "label": "adversarial robustness",
       "raw_label": "42_backdoor_attacks_attack_defense",
       "size_total": 75,
       "keywords": [
@@ -1209,7 +1209,7 @@
     },
     {
       "topic_id": 52,
-      "label": "Ssl selfsupervised unlabeled semisupervised",
+      "label": "ssl selfsupervised unlabeled semisupervised",
       "raw_label": "52_ssl_selfsupervised_unlabeled_semisupervised",
       "size_total": 42,
       "keywords": [
@@ -1243,7 +1243,7 @@
     },
     {
       "topic_id": 30,
-      "label": "Fairness fair groups in",
+      "label": "fairness fair groups in",
       "raw_label": "30_fairness_fair_groups_in",
       "size_total": 89,
       "keywords": [
@@ -1276,7 +1276,7 @@
     },
     {
       "topic_id": 6,
-      "label": "Brain spiking of and",
+      "label": "brain spiking of and",
       "raw_label": "6_brain_spiking_of_and",
       "size_total": 402,
       "keywords": [
@@ -1308,7 +1308,7 @@
     },
     {
       "topic_id": 39,
-      "label": "Clustering algorithm algorithms approximation",
+      "label": "clustering / approximation algorithms",
       "raw_label": "39_clustering_algorithm_algorithms_approximation",
       "size_total": 87,
       "keywords": [
@@ -1342,7 +1342,7 @@
     },
     {
       "topic_id": 43,
-      "label": "Ood detection outofdistribution id",
+      "label": "ood detection outofdistribution id",
       "raw_label": "43_ood_detection_outofdistribution_id",
       "size_total": 76,
       "keywords": [
@@ -1376,7 +1376,7 @@
     },
     {
       "topic_id": 31,
-      "label": "Label labels the noisy",
+      "label": "label labels the noisy",
       "raw_label": "31_label_labels_the_noisy",
       "size_total": 147,
       "keywords": [
@@ -1409,7 +1409,7 @@
     },
     {
       "topic_id": 34,
-      "label": "Communication distributed federated convergence",
+      "label": "optimization / convergence / gradients",
       "raw_label": "34_communication_distributed_federated_convergence",
       "size_total": 96,
       "keywords": [
@@ -1443,7 +1443,7 @@
     },
     {
       "topic_id": 41,
-      "label": "Equivariant symmetries group symmetry",
+      "label": "equivariant symmetries group symmetry",
       "raw_label": "41_equivariant_symmetries_group_symmetry",
       "size_total": 97,
       "keywords": [
@@ -1477,7 +1477,7 @@
     },
     {
       "topic_id": 9,
-      "label": "Causal treatment variables of",
+      "label": "causal treatment variables of",
       "raw_label": "9_causal_treatment_variables_of",
       "size_total": 280,
       "keywords": [
@@ -1510,7 +1510,7 @@
     },
     {
       "topic_id": 25,
-      "label": "Games game equilibrium equilibria",
+      "label": "game theory / equilibria",
       "raw_label": "25_games_game_equilibrium_equilibria",
       "size_total": 124,
       "keywords": [
@@ -1575,7 +1575,7 @@
     },
     {
       "topic_id": 18,
-      "label": "Optimization convergence gradient convex",
+      "label": "optimization / convergence / gradients",
       "raw_label": "18_optimization_convergence_gradient_convex",
       "size_total": 236,
       "keywords": [
@@ -1609,7 +1609,7 @@
     },
     {
       "topic_id": 16,
-      "label": "The of deep gradient",
+      "label": "deep learning theory / gradients",
       "raw_label": "16_the_of_deep_gradient",
       "size_total": 298,
       "keywords": [

@@ -52,273 +52,312 @@
       },
       {
         "topic_id": 46,
-        "label": "Language LLMs of the",
+        "raw_label": "Language LLMs of the",
+        "label": "language modeling / LLMs",
         "x": 0.797455760458281,
         "y": 0.1314833279317556,
         "size": 252
       },
       {
         "topic_id": 36,
-        "label": "Agents LLMs agent language",
+        "raw_label": "Agents LLMs agent language",
+        "label": "agents LLMs agent language",
         "x": 0.7541644650656176,
         "y": 0.0539285015455479,
         "size": 196
       },
       {
         "topic_id": 20,
-        "label": "Vision tokens and the",
+        "raw_label": "Vision tokens and the",
+        "label": "vision tokens and the",
         "x": 0.6488403411852597,
         "y": -0.0396385481445237,
         "size": 278
       },
       {
         "topic_id": 3,
-        "label": "Multimodal visual and to",
+        "raw_label": "Multimodal visual and to",
+        "label": "multimodal visual and to",
         "x": 0.6063132864771488,
         "y": -0.0514795641363246,
         "size": 922
       },
       {
         "topic_id": 38,
-        "label": "Watermarking watermark watermarks image",
+        "raw_label": "Watermarking watermark watermarks image",
+        "label": "watermarking watermark watermarks image",
         "x": 0.549982869251117,
         "y": -0.0046046200194131,
         "size": 56
       },
       {
         "topic_id": 7,
-        "label": "Protein molecular and drug",
+        "raw_label": "Protein molecular and drug",
+        "label": "protein molecular and drug",
         "x": 0.5475490566095411,
         "y": 0.0478216847224058,
         "size": 311
       },
       {
         "topic_id": 11,
-        "label": "Series time forecasting data",
+        "raw_label": "Series time forecasting data",
+        "label": "series time forecasting data",
         "x": 0.5433986418149706,
         "y": 0.0483503349417985,
         "size": 225
       },
       {
         "topic_id": 26,
-        "label": "Video motion generation temporal",
+        "raw_label": "Video motion generation temporal",
+        "label": "video temporal understanding",
         "x": 0.5365792633989617,
         "y": -0.0456771589498151,
         "size": 153
       },
       {
         "topic_id": 49,
-        "label": "Hallucination hallucinations lvlms decoding",
+        "raw_label": "Hallucination hallucinations lvlms decoding",
+        "label": "hallucination in LVLMs",
         "x": 0.5053864859202175,
         "y": -0.0944017853675193,
         "size": 48
       },
       {
         "topic_id": 33,
-        "label": "Knowledge retrieval rag query",
+        "raw_label": "Knowledge retrieval rag query",
+        "label": "knowledge retrieval rag query",
         "x": 0.4068229527109027,
         "y": 0.0019511432271759,
         "size": 113
       },
       {
         "topic_id": 53,
-        "label": "Manipulation dexterous grasp contact",
+        "raw_label": "Manipulation dexterous grasp contact",
+        "label": "manipulation dexterous grasp contact",
         "x": 0.4013674499780956,
         "y": -0.0047294024772657,
         "size": 54
       },
       {
         "topic_id": 35,
-        "label": "Medical segmentation clinical images",
+        "raw_label": "Medical segmentation clinical images",
+        "label": "medical segmentation clinical images",
         "x": 0.3986984863566577,
         "y": -0.0931958510458233,
         "size": 101
       },
       {
         "topic_id": 54,
-        "label": "Decoding speculative draft inference",
+        "raw_label": "Decoding speculative draft inference",
+        "label": "decoding speculative draft inference",
         "x": 0.287860071998527,
         "y": 0.0726059466998424,
         "size": 60
       },
       {
         "topic_id": 13,
-        "label": "Transformers transformer attention of",
+        "raw_label": "Transformers transformer attention of",
+        "label": "transformers transformer attention of",
         "x": 0.2839448081838185,
         "y": 0.140169071980373,
         "size": 200
       },
       {
         "topic_id": 15,
-        "label": "Pdes pde equations differential",
+        "raw_label": "Pdes pde equations differential",
+        "label": "pdes pde equations differential",
         "x": 0.2785480931959769,
         "y": 0.1499188682325875,
         "size": 185
       },
       {
         "topic_id": 32,
-        "label": "Continual forgetting knowledge unlearning",
+        "raw_label": "Continual forgetting knowledge unlearning",
+        "label": "continual forgetting knowledge unlearning",
         "x": 0.1838998238013707,
         "y": -0.0142330922919998,
         "size": 132
       },
       {
         "topic_id": 40,
-        "label": "Anomaly detection anomalies normal",
+        "raw_label": "Anomaly detection anomalies normal",
+        "label": "anomaly detection anomalies normal",
         "x": 0.1703198547143186,
         "y": -0.0468157619438337,
         "size": 59
       },
       {
         "topic_id": 2,
-        "label": "Diffusion image the of",
+        "raw_label": "Diffusion image the of",
+        "label": "diffusion image the of",
         "x": 0.1643822924727933,
         "y": 0.0426267394390507,
         "size": 837
       },
       {
         "topic_id": 45,
-        "label": "Recommendation user recommender item",
+        "raw_label": "Recommendation user recommender item",
+        "label": "recommendation user recommender item",
         "x": 0.1581625490554338,
         "y": -0.1088526891212611,
         "size": 69
       },
       {
         "topic_id": 28,
-        "label": "Problems optimization combinatorial search",
+        "raw_label": "Problems optimization combinatorial search",
+        "label": "optimization / convergence / gradients",
         "x": 0.12987388617799,
         "y": 0.0526439216810281,
         "size": 136
       },
       {
         "topic_id": 44,
-        "label": "Conformal prediction coverage sets",
+        "raw_label": "Conformal prediction coverage sets",
+        "label": "conformal prediction coverage sets",
         "x": 0.1270873470666209,
         "y": 0.0713117732909888,
         "size": 77
       },
       {
         "topic_id": 55,
-        "label": "Face facial identity deepfake",
+        "raw_label": "Face facial identity deepfake",
+        "label": "face facial identity deepfake",
         "x": 0.1229957200170155,
         "y": -0.1387797978176349,
         "size": 46
       },
       {
         "topic_id": 17,
-        "label": "Audio speech audiovisual generation",
+        "raw_label": "Audio speech audiovisual generation",
+        "label": "audio speech audiovisual generation",
         "x": 0.0028453268563346,
         "y": 0.152267053655958,
         "size": 132
       },
       {
         "topic_id": 50,
-        "label": "Quantization quantized lowbit 4bit",
+        "raw_label": "Quantization quantized lowbit 4bit",
+        "label": "quantization quantized lowbit 4bit",
         "x": 0.0027865391113691,
         "y": 0.043262536248093,
         "size": 88
       },
       {
         "topic_id": 47,
-        "label": "Quantum classical of the",
+        "raw_label": "Quantum classical of the",
+        "label": "quantum classical of the",
         "x": -0.0512981862569772,
         "y": 0.0650912404671188,
         "size": 42
       },
       {
         "topic_id": 48,
-        "label": "Pruning sparsity compression sparse",
+        "raw_label": "Pruning sparsity compression sparse",
+        "label": "pruning sparsity compression sparse",
         "x": -0.0674883312205018,
         "y": 0.0325583284283177,
         "size": 82
       },
       {
         "topic_id": 19,
-        "label": "Federated fl clients client",
+        "raw_label": "Federated fl clients client",
+        "label": "federated fl clients client",
         "x": -0.1484978437830901,
         "y": -0.1069846178953742,
         "size": 132
       },
       {
         "topic_id": 51,
-        "label": "Optimization bayesian bo the",
+        "raw_label": "Optimization bayesian bo the",
+        "label": "Bayesian inference",
         "x": -0.1917891391757534,
         "y": 0.1454331276459854,
         "size": 77
       },
       {
         "topic_id": 42,
-        "label": "Backdoor attacks attack defense",
+        "raw_label": "Backdoor attacks attack defense",
+        "label": "adversarial robustness",
         "x": -0.2350216468234511,
         "y": -0.1395245310941538,
         "size": 75
       },
       {
         "topic_id": 52,
-        "label": "Ssl selfsupervised unlabeled semisupervised",
+        "raw_label": "Ssl selfsupervised unlabeled semisupervised",
+        "label": "ssl selfsupervised unlabeled semisupervised",
         "x": -0.3012636778506824,
         "y": 0.1218932001029677,
         "size": 42
       },
       {
         "topic_id": 30,
-        "label": "Fairness fair groups in",
+        "raw_label": "Fairness fair groups in",
+        "label": "fairness fair groups in",
         "x": -0.3268833771066882,
         "y": 0.0961471448939537,
         "size": 89
       },
       {
         "topic_id": 6,
-        "label": "Brain spiking of and",
+        "raw_label": "Brain spiking of and",
+        "label": "brain spiking of and",
         "x": -0.3319273656247361,
         "y": 0.178063024313907,
         "size": 402
       },
       {
         "topic_id": 39,
-        "label": "Clustering algorithm algorithms approximation",
+        "raw_label": "Clustering algorithm algorithms approximation",
+        "label": "clustering / approximation algorithms",
         "x": -0.3647191697665445,
         "y": 0.2118761684990896,
         "size": 87
       },
       {
         "topic_id": 43,
-        "label": "Ood detection outofdistribution id",
+        "raw_label": "Ood detection outofdistribution id",
+        "label": "ood detection outofdistribution id",
         "x": -0.4539119364283435,
         "y": -0.0476910773614814,
         "size": 76
       },
       {
         "topic_id": 31,
-        "label": "Label labels the noisy",
+        "raw_label": "Label labels the noisy",
+        "label": "label labels the noisy",
         "x": -0.4768038843179456,
         "y": 0.0290777066085202,
         "size": 147
       },
       {
         "topic_id": 34,
-        "label": "Communication distributed federated convergence",
+        "raw_label": "Communication distributed federated convergence",
+        "label": "optimization / convergence / gradients",
         "x": -0.5714521537125519,
         "y": 0.0510742311287477,
         "size": 96
       },
       {
         "topic_id": 41,
-        "label": "Equivariant symmetries group symmetry",
+        "raw_label": "Equivariant symmetries group symmetry",
+        "label": "equivariant symmetries group symmetry",
         "x": -0.8132931789520119,
         "y": 0.1511715641706137,
         "size": 97
       },
       {
         "topic_id": 9,
-        "label": "Causal treatment variables of",
+        "raw_label": "Causal treatment variables of",
+        "label": "causal treatment variables of",
         "x": -0.854985447681611,
         "y": 0.0734432506970663,
         "size": 280
       },
       {
         "topic_id": 25,
-        "label": "Games game equilibrium equilibria",
+        "raw_label": "Games game equilibrium equilibria",
+        "label": "game theory / equilibria",
         "x": -0.8848731372221192,
         "y": 0.2235774485941212,
         "size": 124
@@ -332,14 +371,16 @@
       },
       {
         "topic_id": 18,
-        "label": "Optimization convergence gradient convex",
+        "raw_label": "Optimization convergence gradient convex",
+        "label": "optimization / convergence / gradients",
         "x": -1.0914885456781955,
         "y": 0.0963485797422534,
         "size": 236
       },
       {
         "topic_id": 16,
-        "label": "The of deep gradient",
+        "raw_label": "The of deep gradient",
+        "label": "deep learning theory / gradients",
         "x": -1.122504959922043,
         "y": 0.1513559971986982,
         "size": 298
@@ -635,7 +676,8 @@
       },
       {
         "topic_id": 46,
-        "label": "Language LLMs of the",
+        "raw_label": "Language LLMs of the",
+        "label": "language modeling / LLMs",
         "transition": "2023→2024",
         "x": 0.5653915436943526,
         "y": 0.1314833279317556,
@@ -643,7 +685,8 @@
       },
       {
         "topic_id": 46,
-        "label": "Language LLMs of the",
+        "raw_label": "Language LLMs of the",
+        "label": "language modeling / LLMs",
         "transition": "2024→2025",
         "x": 0.23206421676392797,
         "y": 0.1314833279317556,
@@ -651,7 +694,8 @@
       },
       {
         "topic_id": 36,
-        "label": "Agents LLMs agent language",
+        "raw_label": "Agents LLMs agent language",
+        "label": "agents LLMs agent language",
         "transition": "2023→2024",
         "x": 0.3930647234461049,
         "y": 0.0539285015455479,
@@ -659,7 +703,8 @@
       },
       {
         "topic_id": 36,
-        "label": "Agents LLMs agent language",
+        "raw_label": "Agents LLMs agent language",
+        "label": "agents LLMs agent language",
         "transition": "2024→2025",
         "x": 0.3610997416195125,
         "y": 0.0539285015455479,
@@ -667,7 +712,8 @@
       },
       {
         "topic_id": 20,
-        "label": "Vision tokens and the",
+        "raw_label": "Vision tokens and the",
+        "label": "vision tokens and the",
         "transition": "2023→2024",
         "x": 0.825036986036568,
         "y": -0.0396385481445237,
@@ -675,7 +721,8 @@
       },
       {
         "topic_id": 20,
-        "label": "Vision tokens and the",
+        "raw_label": "Vision tokens and the",
+        "label": "vision tokens and the",
         "transition": "2024→2025",
         "x": -0.17619664485130837,
         "y": -0.0396385481445237,
@@ -683,7 +730,8 @@
       },
       {
         "topic_id": 3,
-        "label": "Multimodal visual and to",
+        "raw_label": "Multimodal visual and to",
+        "label": "multimodal visual and to",
         "transition": "2023→2024",
         "x": 0.4245326975046648,
         "y": -0.0514795641363246,
@@ -691,7 +739,8 @@
       },
       {
         "topic_id": 3,
-        "label": "Multimodal visual and to",
+        "raw_label": "Multimodal visual and to",
+        "label": "multimodal visual and to",
         "transition": "2024→2025",
         "x": 0.18178058897248395,
         "y": -0.0514795641363246,
@@ -699,7 +748,8 @@
       },
       {
         "topic_id": 38,
-        "label": "Watermarking watermark watermarks image",
+        "raw_label": "Watermarking watermark watermarks image",
+        "label": "watermarking watermark watermarks image",
         "transition": "2023→2024",
         "x": 0.3776541957683816,
         "y": -0.0046046200194131,
@@ -707,7 +757,8 @@
       },
       {
         "topic_id": 38,
-        "label": "Watermarking watermark watermarks image",
+        "raw_label": "Watermarking watermark watermarks image",
+        "label": "watermarking watermark watermarks image",
         "transition": "2024→2025",
         "x": 0.17232867348273545,
         "y": -0.0046046200194131,
@@ -715,7 +766,8 @@
       },
       {
         "topic_id": 7,
-        "label": "Protein molecular and drug",
+        "raw_label": "Protein molecular and drug",
+        "label": "protein molecular and drug",
         "transition": "2023→2024",
         "x": 0.5201919500209091,
         "y": 0.0478216847224058,
@@ -723,7 +775,8 @@
       },
       {
         "topic_id": 7,
-        "label": "Protein molecular and drug",
+        "raw_label": "Protein molecular and drug",
+        "label": "protein molecular and drug",
         "transition": "2024→2025",
         "x": 0.027357106588631996,
         "y": 0.0478216847224058,
@@ -731,7 +784,8 @@
       },
       {
         "topic_id": 11,
-        "label": "Series time forecasting data",
+        "raw_label": "Series time forecasting data",
+        "label": "series time forecasting data",
         "transition": "2023→2024",
         "x": 0.6153429092704221,
         "y": 0.0483503349417985,
@@ -739,7 +793,8 @@
       },
       {
         "topic_id": 11,
-        "label": "Series time forecasting data",
+        "raw_label": "Series time forecasting data",
+        "label": "series time forecasting data",
         "transition": "2024→2025",
         "x": -0.07194426745545135,
         "y": 0.0483503349417985,
@@ -747,7 +802,8 @@
       },
       {
         "topic_id": 26,
-        "label": "Video motion generation temporal",
+        "raw_label": "Video motion generation temporal",
+        "label": "video temporal understanding",
         "transition": "2023→2024",
         "x": 0.2884102203913398,
         "y": -0.0456771589498151,
@@ -755,7 +811,8 @@
       },
       {
         "topic_id": 26,
-        "label": "Video motion generation temporal",
+        "raw_label": "Video motion generation temporal",
+        "label": "video temporal understanding",
         "transition": "2024→2025",
         "x": 0.24816904300762177,
         "y": -0.0456771589498151,
@@ -763,7 +820,8 @@
       },
       {
         "topic_id": 49,
-        "label": "Hallucination hallucinations lvlms decoding",
+        "raw_label": "Hallucination hallucinations lvlms decoding",
+        "label": "hallucination in LVLMs",
         "transition": "2023→2024",
         "x": 0.3343799553780124,
         "y": -0.0944017853675193,
@@ -771,7 +829,8 @@
       },
       {
         "topic_id": 49,
-        "label": "Hallucination hallucinations lvlms decoding",
+        "raw_label": "Hallucination hallucinations lvlms decoding",
+        "label": "hallucination in LVLMs",
         "transition": "2024→2025",
         "x": 0.17100653054220516,
         "y": -0.0944017853675193,
@@ -779,7 +838,8 @@
       },
       {
         "topic_id": 33,
-        "label": "Knowledge retrieval rag query",
+        "raw_label": "Knowledge retrieval rag query",
+        "label": "knowledge retrieval rag query",
         "transition": "2023→2024",
         "x": 0.23961406678511443,
         "y": 0.0019511432271759,
@@ -787,7 +847,8 @@
       },
       {
         "topic_id": 33,
-        "label": "Knowledge retrieval rag query",
+        "raw_label": "Knowledge retrieval rag query",
+        "label": "knowledge retrieval rag query",
         "transition": "2024→2025",
         "x": 0.1672088859257883,
         "y": 0.0019511432271759,
@@ -795,7 +856,8 @@
       },
       {
         "topic_id": 53,
-        "label": "Manipulation dexterous grasp contact",
+        "raw_label": "Manipulation dexterous grasp contact",
+        "label": "manipulation dexterous grasp contact",
         "transition": "2023→2024",
         "x": -0.0566284907617699,
         "y": -0.0047294024772657,
@@ -803,7 +865,8 @@
       },
       {
         "topic_id": 53,
-        "label": "Manipulation dexterous grasp contact",
+        "raw_label": "Manipulation dexterous grasp contact",
+        "label": "manipulation dexterous grasp contact",
         "transition": "2024→2025",
         "x": 0.4579959407398656,
         "y": -0.0047294024772657,
@@ -811,7 +874,8 @@
       },
       {
         "topic_id": 35,
-        "label": "Medical segmentation clinical images",
+        "raw_label": "Medical segmentation clinical images",
+        "label": "medical segmentation clinical images",
         "transition": "2023→2024",
         "x": 0.3391317272806388,
         "y": -0.0931958510458233,
@@ -819,7 +883,8 @@
       },
       {
         "topic_id": 35,
-        "label": "Medical segmentation clinical images",
+        "raw_label": "Medical segmentation clinical images",
+        "label": "medical segmentation clinical images",
         "transition": "2024→2025",
         "x": 0.05956675907601905,
         "y": -0.0931958510458233,
@@ -827,7 +892,8 @@
       },
       {
         "topic_id": 54,
-        "label": "Decoding speculative draft inference",
+        "raw_label": "Decoding speculative draft inference",
+        "label": "decoding speculative draft inference",
         "transition": "2023→2024",
         "x": 0.2407692787549588,
         "y": 0.0726059466998424,
@@ -835,7 +901,8 @@
       },
       {
         "topic_id": 54,
-        "label": "Decoding speculative draft inference",
+        "raw_label": "Decoding speculative draft inference",
+        "label": "decoding speculative draft inference",
         "transition": "2024→2025",
         "x": 0.04709079324356824,
         "y": 0.0726059466998424,
@@ -843,7 +910,8 @@
       },
       {
         "topic_id": 13,
-        "label": "Transformers transformer attention of",
+        "raw_label": "Transformers transformer attention of",
+        "label": "transformers transformer attention of",
         "transition": "2023→2024",
         "x": 0.5287944284896835,
         "y": 0.140169071980373,
@@ -851,7 +919,8 @@
       },
       {
         "topic_id": 13,
-        "label": "Transformers transformer attention of",
+        "raw_label": "Transformers transformer attention of",
+        "label": "transformers transformer attention of",
         "transition": "2024→2025",
         "x": -0.244849620305865,
         "y": 0.140169071980373,
@@ -859,7 +928,8 @@
       },
       {
         "topic_id": 15,
-        "label": "Pdes pde equations differential",
+        "raw_label": "Pdes pde equations differential",
+        "label": "pdes pde equations differential",
         "transition": "2023→2024",
         "x": -0.0290189246824899,
         "y": 0.1499188682325875,
@@ -867,7 +937,8 @@
       },
       {
         "topic_id": 15,
-        "label": "Pdes pde equations differential",
+        "raw_label": "Pdes pde equations differential",
+        "label": "pdes pde equations differential",
         "transition": "2024→2025",
         "x": 0.30756701787846685,
         "y": 0.1499188682325875,
@@ -875,7 +946,8 @@
       },
       {
         "topic_id": 32,
-        "label": "Continual forgetting knowledge unlearning",
+        "raw_label": "Continual forgetting knowledge unlearning",
+        "label": "continual forgetting knowledge unlearning",
         "transition": "2023→2024",
         "x": 0.13341928110388968,
         "y": -0.0142330922919998,
@@ -883,7 +955,8 @@
       },
       {
         "topic_id": 32,
-        "label": "Continual forgetting knowledge unlearning",
+        "raw_label": "Continual forgetting knowledge unlearning",
+        "label": "continual forgetting knowledge unlearning",
         "transition": "2024→2025",
         "x": 0.050480542697481035,
         "y": -0.0142330922919998,
@@ -891,7 +964,8 @@
       },
       {
         "topic_id": 40,
-        "label": "Anomaly detection anomalies normal",
+        "raw_label": "Anomaly detection anomalies normal",
+        "label": "anomaly detection anomalies normal",
         "transition": "2023→2024",
         "x": -0.112871910866925,
         "y": -0.0468157619438337,
@@ -899,7 +973,8 @@
       },
       {
         "topic_id": 40,
-        "label": "Anomaly detection anomalies normal",
+        "raw_label": "Anomaly detection anomalies normal",
+        "label": "anomaly detection anomalies normal",
         "transition": "2024→2025",
         "x": 0.2831917655812436,
         "y": -0.0468157619438337,
@@ -907,7 +982,8 @@
       },
       {
         "topic_id": 2,
-        "label": "Diffusion image the of",
+        "raw_label": "Diffusion image the of",
+        "label": "diffusion image the of",
         "transition": "2023→2024",
         "x": 0.345431483222856,
         "y": 0.0426267394390507,
@@ -915,7 +991,8 @@
       },
       {
         "topic_id": 2,
-        "label": "Diffusion image the of",
+        "raw_label": "Diffusion image the of",
+        "label": "diffusion image the of",
         "transition": "2024→2025",
         "x": -0.18104919075006176,
         "y": 0.0426267394390507,
@@ -923,7 +1000,8 @@
       },
       {
         "topic_id": 45,
-        "label": "Recommendation user recommender item",
+        "raw_label": "Recommendation user recommender item",
+        "label": "recommendation user recommender item",
         "transition": "2023→2024",
         "x": 0.05431806682208118,
         "y": -0.1088526891212611,
@@ -931,7 +1009,8 @@
       },
       {
         "topic_id": 45,
-        "label": "Recommendation user recommender item",
+        "raw_label": "Recommendation user recommender item",
+        "label": "recommendation user recommender item",
         "transition": "2024→2025",
         "x": 0.10384448223335263,
         "y": -0.1088526891212611,
@@ -939,7 +1018,8 @@
       },
       {
         "topic_id": 28,
-        "label": "Problems optimization combinatorial search",
+        "raw_label": "Problems optimization combinatorial search",
+        "label": "optimization / convergence / gradients",
         "transition": "2023→2024",
         "x": -0.27608025796653457,
         "y": 0.0526439216810281,
@@ -947,7 +1027,8 @@
       },
       {
         "topic_id": 28,
-        "label": "Problems optimization combinatorial search",
+        "raw_label": "Problems optimization combinatorial search",
+        "label": "optimization / convergence / gradients",
         "transition": "2024→2025",
         "x": 0.4059541441445246,
         "y": 0.0526439216810281,
@@ -955,7 +1036,8 @@
       },
       {
         "topic_id": 44,
-        "label": "Conformal prediction coverage sets",
+        "raw_label": "Conformal prediction coverage sets",
+        "label": "conformal prediction coverage sets",
         "transition": "2023→2024",
         "x": 0.19672489705135998,
         "y": 0.0713117732909888,
@@ -963,7 +1045,8 @@
       },
       {
         "topic_id": 44,
-        "label": "Conformal prediction coverage sets",
+        "raw_label": "Conformal prediction coverage sets",
+        "label": "conformal prediction coverage sets",
         "transition": "2024→2025",
         "x": -0.06963754998473903,
         "y": 0.0713117732909888,
@@ -971,7 +1054,8 @@
       },
       {
         "topic_id": 55,
-        "label": "Face facial identity deepfake",
+        "raw_label": "Face facial identity deepfake",
+        "label": "face facial identity deepfake",
         "transition": "2023→2024",
         "x": 0.3029196827325846,
         "y": -0.1387797978176349,
@@ -979,7 +1063,8 @@
       },
       {
         "topic_id": 55,
-        "label": "Face facial identity deepfake",
+        "raw_label": "Face facial identity deepfake",
+        "label": "face facial identity deepfake",
         "transition": "2024→2025",
         "x": -0.1799239627155691,
         "y": -0.1387797978176349,
@@ -987,7 +1072,8 @@
       },
       {
         "topic_id": 17,
-        "label": "Audio speech audiovisual generation",
+        "raw_label": "Audio speech audiovisual generation",
+        "label": "audio speech audiovisual generation",
         "transition": "2023→2024",
         "x": -0.01566467431108931,
         "y": 0.152267053655958,
@@ -995,7 +1081,8 @@
       },
       {
         "topic_id": 17,
-        "label": "Audio speech audiovisual generation",
+        "raw_label": "Audio speech audiovisual generation",
+        "label": "audio speech audiovisual generation",
         "transition": "2024→2025",
         "x": 0.01851000116742396,
         "y": 0.152267053655958,
@@ -1003,7 +1090,8 @@
       },
       {
         "topic_id": 50,
-        "label": "Quantization quantized lowbit 4bit",
+        "raw_label": "Quantization quantized lowbit 4bit",
+        "label": "quantization quantized lowbit 4bit",
         "transition": "2023→2024",
         "x": 0.24590612131419998,
         "y": 0.043262536248093,
@@ -1011,7 +1099,8 @@
       },
       {
         "topic_id": 50,
-        "label": "Quantization quantized lowbit 4bit",
+        "raw_label": "Quantization quantized lowbit 4bit",
+        "label": "quantization quantized lowbit 4bit",
         "transition": "2024→2025",
         "x": -0.2431195822028308,
         "y": 0.043262536248093,
@@ -1019,7 +1108,8 @@
       },
       {
         "topic_id": 47,
-        "label": "Quantum classical of the",
+        "raw_label": "Quantum classical of the",
+        "label": "quantum classical of the",
         "transition": "2023→2024",
         "x": -0.050721506889299106,
         "y": 0.0650912404671188,
@@ -1027,7 +1117,8 @@
       },
       {
         "topic_id": 47,
-        "label": "Quantum classical of the",
+        "raw_label": "Quantum classical of the",
+        "label": "quantum classical of the",
         "transition": "2024→2025",
         "x": -0.0005766793676781345,
         "y": 0.0650912404671188,
@@ -1035,7 +1126,8 @@
       },
       {
         "topic_id": 48,
-        "label": "Pruning sparsity compression sparse",
+        "raw_label": "Pruning sparsity compression sparse",
+        "label": "pruning sparsity compression sparse",
         "transition": "2023→2024",
         "x": 0.3824059676710079,
         "y": 0.0325583284283177,
@@ -1043,7 +1135,8 @@
       },
       {
         "topic_id": 48,
-        "label": "Pruning sparsity compression sparse",
+        "raw_label": "Pruning sparsity compression sparse",
+        "label": "pruning sparsity compression sparse",
         "transition": "2024→2025",
         "x": -0.4498942988915097,
         "y": 0.0325583284283177,
@@ -1051,7 +1144,8 @@
       },
       {
         "topic_id": 19,
-        "label": "Federated fl clients client",
+        "raw_label": "Federated fl clients client",
+        "label": "federated fl clients client",
         "transition": "2023→2024",
         "x": 0.18260050536672967,
         "y": -0.1069846178953742,
@@ -1059,7 +1153,8 @@
       },
       {
         "topic_id": 19,
-        "label": "Federated fl clients client",
+        "raw_label": "Federated fl clients client",
+        "label": "federated fl clients client",
         "transition": "2024→2025",
         "x": -0.33109834914981984,
         "y": -0.1069846178953742,
@@ -1067,7 +1162,8 @@
       },
       {
         "topic_id": 51,
-        "label": "Optimization bayesian bo the",
+        "raw_label": "Optimization bayesian bo the",
+        "label": "Bayesian inference",
         "transition": "2023→2024",
         "x": 0.035056832578209796,
         "y": 0.1454331276459854,
@@ -1075,7 +1171,8 @@
       },
       {
         "topic_id": 51,
-        "label": "Optimization bayesian bo the",
+        "raw_label": "Optimization bayesian bo the",
+        "label": "Bayesian inference",
         "transition": "2024→2025",
         "x": -0.22684597175396332,
         "y": 0.1454331276459854,
@@ -1083,7 +1180,8 @@
       },
       {
         "topic_id": 42,
-        "label": "Backdoor attacks attack defense",
+        "raw_label": "Backdoor attacks attack defense",
+        "label": "adversarial robustness",
         "transition": "2023→2024",
         "x": -0.15100930869805296,
         "y": -0.1395245310941538,
@@ -1091,7 +1189,8 @@
       },
       {
         "topic_id": 42,
-        "label": "Backdoor attacks attack defense",
+        "raw_label": "Backdoor attacks attack defense",
+        "label": "adversarial robustness",
         "transition": "2024→2025",
         "x": -0.08401233812539821,
         "y": -0.1395245310941538,
@@ -1099,7 +1198,8 @@
       },
       {
         "topic_id": 52,
-        "label": "Ssl selfsupervised unlabeled semisupervised",
+        "raw_label": "Ssl selfsupervised unlabeled semisupervised",
+        "label": "ssl selfsupervised unlabeled semisupervised",
         "transition": "2023→2024",
         "x": -0.20609751683336375,
         "y": 0.1218932001029677,
@@ -1107,7 +1207,8 @@
       },
       {
         "topic_id": 52,
-        "label": "Ssl selfsupervised unlabeled semisupervised",
+        "raw_label": "Ssl selfsupervised unlabeled semisupervised",
+        "label": "ssl selfsupervised unlabeled semisupervised",
         "transition": "2024→2025",
         "x": -0.0951661610173187,
         "y": 0.1218932001029677,
@@ -1115,7 +1216,8 @@
       },
       {
         "topic_id": 30,
-        "label": "Fairness fair groups in",
+        "raw_label": "Fairness fair groups in",
+        "label": "fairness fair groups in",
         "transition": "2023→2024",
         "x": -0.2631110782517484,
         "y": 0.0961471448939537,
@@ -1123,7 +1225,8 @@
       },
       {
         "topic_id": 30,
-        "label": "Fairness fair groups in",
+        "raw_label": "Fairness fair groups in",
+        "label": "fairness fair groups in",
         "transition": "2024→2025",
         "x": -0.06377229885493985,
         "y": 0.0961471448939537,
@@ -1131,7 +1234,8 @@
       },
       {
         "topic_id": 6,
-        "label": "Brain spiking of and",
+        "raw_label": "Brain spiking of and",
+        "label": "brain spiking of and",
         "transition": "2023→2024",
         "x": -0.8042277677531056,
         "y": 0.178063024313907,
@@ -1139,7 +1243,8 @@
       },
       {
         "topic_id": 6,
-        "label": "Brain spiking of and",
+        "raw_label": "Brain spiking of and",
+        "label": "brain spiking of and",
         "transition": "2024→2025",
         "x": 0.47230040212836943,
         "y": 0.178063024313907,
@@ -1147,7 +1252,8 @@
       },
       {
         "topic_id": 39,
-        "label": "Clustering algorithm algorithms approximation",
+        "raw_label": "Clustering algorithm algorithms approximation",
+        "label": "clustering / approximation algorithms",
         "transition": "2023→2024",
         "x": -0.2631110782517484,
         "y": 0.2118761684990896,
@@ -1155,7 +1261,8 @@
       },
       {
         "topic_id": 39,
-        "label": "Clustering algorithm algorithms approximation",
+        "raw_label": "Clustering algorithm algorithms approximation",
+        "label": "clustering / approximation algorithms",
         "transition": "2024→2025",
         "x": -0.1016080915147961,
         "y": 0.2118761684990896,
@@ -1163,7 +1270,8 @@
       },
       {
         "topic_id": 43,
-        "label": "Ood detection outofdistribution id",
+        "raw_label": "Ood detection outofdistribution id",
+        "label": "ood detection outofdistribution id",
         "transition": "2023→2024",
         "x": -0.22574382173385,
         "y": -0.0476910773614814,
@@ -1171,7 +1279,8 @@
       },
       {
         "topic_id": 43,
-        "label": "Ood detection outofdistribution id",
+        "raw_label": "Ood detection outofdistribution id",
+        "label": "ood detection outofdistribution id",
         "transition": "2024→2025",
         "x": -0.2281681146944936,
         "y": -0.0476910773614814,
@@ -1179,7 +1288,8 @@
       },
       {
         "topic_id": 31,
-        "label": "Label labels the noisy",
+        "raw_label": "Label labels the noisy",
+        "label": "label labels the noisy",
         "transition": "2023→2024",
         "x": -0.27094341540729294,
         "y": 0.0290777066085202,
@@ -1187,7 +1297,8 @@
       },
       {
         "topic_id": 31,
-        "label": "Label labels the noisy",
+        "raw_label": "Label labels the noisy",
+        "label": "label labels the noisy",
         "transition": "2024→2025",
         "x": -0.20586046891065257,
         "y": 0.0290777066085202,
@@ -1195,7 +1306,8 @@
       },
       {
         "topic_id": 34,
-        "label": "Communication distributed federated convergence",
+        "raw_label": "Communication distributed federated convergence",
+        "label": "optimization / convergence / gradients",
         "transition": "2023→2024",
         "x": -0.05893891470145829,
         "y": 0.0510742311287477,
@@ -1203,7 +1315,8 @@
       },
       {
         "topic_id": 34,
-        "label": "Communication distributed federated convergence",
+        "raw_label": "Communication distributed federated convergence",
+        "label": "optimization / convergence / gradients",
         "transition": "2024→2025",
         "x": -0.5125132390110934,
         "y": 0.0510742311287477,
@@ -1211,7 +1324,8 @@
       },
       {
         "topic_id": 41,
-        "label": "Equivariant symmetries group symmetry",
+        "raw_label": "Equivariant symmetries group symmetry",
+        "label": "equivariant symmetries group symmetry",
         "transition": "2023→2024",
         "x": -0.5864472071980487,
         "y": 0.1511715641706137,
@@ -1219,7 +1333,8 @@
       },
       {
         "topic_id": 41,
-        "label": "Equivariant symmetries group symmetry",
+        "raw_label": "Equivariant symmetries group symmetry",
+        "label": "equivariant symmetries group symmetry",
         "transition": "2024→2025",
         "x": -0.22684597175396332,
         "y": 0.1511715641706137,
@@ -1227,7 +1342,8 @@
       },
       {
         "topic_id": 9,
-        "label": "Causal treatment variables of",
+        "raw_label": "Causal treatment variables of",
+        "label": "causal treatment variables of",
         "transition": "2023→2024",
         "x": -0.5352097056288856,
         "y": 0.0734432506970663,
@@ -1235,7 +1351,8 @@
       },
       {
         "topic_id": 9,
-        "label": "Causal treatment variables of",
+        "raw_label": "Causal treatment variables of",
+        "label": "causal treatment variables of",
         "transition": "2024→2025",
         "x": -0.3197757420527252,
         "y": 0.0734432506970663,
@@ -1243,7 +1360,8 @@
       },
       {
         "topic_id": 25,
-        "label": "Games game equilibrium equilibria",
+        "raw_label": "Games game equilibrium equilibria",
+        "label": "game theory / equilibria",
         "transition": "2023→2024",
         "x": -0.6926419928792735,
         "y": 0.2235774485941212,
@@ -1251,7 +1369,8 @@
       },
       {
         "topic_id": 25,
-        "label": "Games game equilibrium equilibria",
+        "raw_label": "Games game equilibrium equilibria",
+        "label": "game theory / equilibria",
         "transition": "2024→2025",
         "x": -0.19223114434284572,
         "y": 0.2235774485941212,
@@ -1275,7 +1394,8 @@
       },
       {
         "topic_id": 18,
-        "label": "Optimization convergence gradient convex",
+        "raw_label": "Optimization convergence gradient convex",
+        "label": "optimization / convergence / gradients",
         "transition": "2023→2024",
         "x": -0.6398642086836515,
         "y": 0.0963485797422534,
@@ -1283,7 +1403,8 @@
       },
       {
         "topic_id": 18,
-        "label": "Optimization convergence gradient convex",
+        "raw_label": "Optimization convergence gradient convex",
+        "label": "optimization / convergence / gradients",
         "transition": "2024→2025",
         "x": -0.45162433699454385,
         "y": 0.0963485797422534,
@@ -1291,7 +1412,8 @@
       },
       {
         "topic_id": 16,
-        "label": "The of deep gradient",
+        "raw_label": "The of deep gradient",
+        "label": "deep learning theory / gradients",
         "transition": "2023→2024",
         "x": -0.511196699482388,
         "y": 0.1513559971986982,
@@ -1299,7 +1421,8 @@
       },
       {
         "topic_id": 16,
-        "label": "The of deep gradient",
+        "raw_label": "The of deep gradient",
+        "label": "deep learning theory / gradients",
         "transition": "2024→2025",
         "x": -0.6113082604396549,
         "y": 0.1513559971986982,

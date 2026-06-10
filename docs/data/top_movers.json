@@ -101,7 +101,8 @@
     {
       "direction": "Rising",
       "topic_id": 46,
-      "label": "language LLMs of the",
+      "raw_label": "language LLMs of the",
+      "label": "language modeling / LLMs",
       "size": 252,
       "share_2023": 1.49,
       "share_2024": 2.06,
@@ -255,7 +256,8 @@
     {
       "direction": "Declining",
       "topic_id": 18,
-      "label": "convex optimization",
+      "raw_label": "convex optimization",
+      "label": "optimization / convergence / gradients",
       "size": 236,
       "share_2023": 2.55,
       "share_2024": 1.91,
