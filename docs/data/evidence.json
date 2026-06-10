@@ -276,7 +276,7 @@
       },
       {
         "topic_id": 42,
-        "raw_label": "Backdoor attacks attack defense",
+        "raw_label": "backdoor attacks / defenses",
         "label": "adversarial robustness",
         "x": -0.2350216468234511,
         "y": -0.1395245310941538,
@@ -1180,7 +1180,7 @@
       },
       {
         "topic_id": 42,
-        "raw_label": "Backdoor attacks attack defense",
+        "raw_label": "backdoor attacks / defenses",
         "label": "adversarial robustness",
         "transition": "2023→2024",
         "x": -0.15100930869805296,
@@ -1189,7 +1189,7 @@
       },
       {
         "topic_id": 42,
-        "raw_label": "Backdoor attacks attack defense",
+        "raw_label": "backdoor attacks / defenses",
         "label": "adversarial robustness",
         "transition": "2024→2025",
         "x": -0.08401233812539821,

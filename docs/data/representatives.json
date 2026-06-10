@@ -2591,7 +2591,7 @@
     },
     {
       "topic_id": 42,
-      "raw_label": "Backdoor attacks attack defense",
+      "raw_label": "backdoor attacks / defenses",
       "label": "adversarial robustness",
       "papers": [
         {
