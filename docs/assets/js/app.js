@@ -338,6 +338,32 @@ function renderEvidence(){
   const ev = state.evidence[mode];
   const pts = ev.points || [];
   const data = [];
+
+  // Draw the confidence band first so points and the fit line remain visually dominant.
+  if(ev.fit && Array.isArray(ev.fit.x_grid) && Array.isArray(ev.fit.ci_high) && Array.isArray(ev.fit.ci_low)){
+    data.push({
+      x: ev.fit.x_grid,
+      y: ev.fit.ci_low,
+      type: 'scatter',
+      mode: 'lines',
+      line: {width: 1, color: 'rgba(37,99,235,.22)', dash: 'dot'},
+      showlegend: false,
+      hoverinfo: 'skip',
+      name: '95% CI lower'
+    });
+    data.push({
+      x: ev.fit.x_grid,
+      y: ev.fit.ci_high,
+      type: 'scatter',
+      mode: 'lines',
+      fill: 'tonexty',
+      fillcolor: 'rgba(37,99,235,.16)',
+      line: {width: 1, color: 'rgba(37,99,235,.22)', dash: 'dot'},
+      name: '95% confidence band',
+      hoverinfo: 'skip'
+    });
+  }
+
   if(mode === 'transition'){
     for(const tr of ['2023→2024','2024→2025']){
       const subset = pts.filter(p=>p.transition===tr);
@@ -346,26 +372,32 @@ function renderEvidence(){
   } else {
     data.push(traceFor(pts, 'Topics', 'circle'));
   }
-  if(ev.fit && ev.fit.x_grid){
-    if (Array.isArray(ev.fit.ci_high) && Array.isArray(ev.fit.ci_low)) {
-      data.push({x:ev.fit.x_grid, y:ev.fit.ci_high, type:'scatter', mode:'lines', line:{width:0}, showlegend:false, hoverinfo:'skip'});
-      data.push({x:ev.fit.x_grid, y:ev.fit.ci_low, type:'scatter', mode:'lines', fill:'tonexty', fillcolor:'rgba(37,99,235,.12)', line:{width:0}, name:'95% band', hoverinfo:'skip'});
-    }
-    data.push({x:ev.fit.x_grid, y:ev.fit.y_hat, type:'scatter', mode:'lines', line:{color:'#111827',width:2,dash:'dash'}, name:'Linear fit'});
+
+  if(ev.fit && Array.isArray(ev.fit.x_grid) && Array.isArray(ev.fit.y_hat)){
+    data.push({
+      x: ev.fit.x_grid,
+      y: ev.fit.y_hat,
+      type: 'scatter',
+      mode: 'lines',
+      line: {color:'#111827',width:2.5,dash:'dash'},
+      name:'Linear fit'
+    });
   }
+
   const xTitle = mode === 'endpoint' ? 'Accepted-paper share change, 2025−2023 (percentage points)' : 'Adjacent-year accepted-paper share change (percentage points)';
   Plotly.newPlot('evidenceChart', data, {
     margin:{l:70,r:30,t:25,b:70},
     xaxis:{title:xTitle,zeroline:true,zerolinewidth:1,zerolinecolor:'#94a3b8'},
     yaxis:{title:'Year-normalized reviewer rating',zeroline:true,zerolinewidth:1,zerolinecolor:'#94a3b8'},
     legend:{orientation:'h',y:-.2}, hovermode:'closest'
-  }, {responsive:true});
+  }, {displayModeBar:false, responsive:true});
   $('evidenceChart').on('plotly_click', e=>{
     const id=e.points?.[0]?.customdata?.[0];
     if(id!==undefined){state.selectedTopicId=Number(id); renderInspector(state.selectedTopicId); $('topics').scrollIntoView({behavior:'smooth'});}
   });
   renderEvidenceStats();
 }
+
 function traceFor(pts,name,symbol){return {x:pts.map(p=>p.x), y:pts.map(p=>p.y), text:pts.map(p=>p.label+(p.transition?` (${p.transition})`:'')), customdata:pts.map(p=>[p.topic_id]), type:'scatter', mode:'markers', name, marker:{symbol, size:pts.map(p=>8+Math.sqrt(Math.max(1,p.size))*0.45), opacity:.78, line:{width:1,color:'#1f2937'}}, hovertemplate:'<b>%{text}</b><br>share change=%{x:.2f} pp<br>z rating=%{y:.3f}<extra></extra>'}}
 function renderEvidenceStats(){
   const stats = state.evidence[state.evidenceMode].stats || {};
